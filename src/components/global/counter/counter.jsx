@@ -1,4 +1,5 @@
 import MarkdownIt from "markdown-it";
+import { generateRoseyId } from "rosey-connector/helpers/text-formatters.mjs"
 const md = new MarkdownIt({ html: true });
 
 export default function GlobalCounter(block) {
@@ -14,12 +15,15 @@ export default function GlobalCounter(block) {
           <div className="col-lg-12">
             <div className="section-header">
               <h2>
-                {block.title} <span>{block.title_suffix}</span>
+                <span data-rosey={generateRoseyId(block.title)}>{block.title}</span>
+                <span>{block.title_suffix}</span>
               </h2>
               <div
                 dangerouslySetInnerHTML={{
                   __html: md.render(block.description),
                 }}
+                data-rosey-ns="rcc-markdown"
+                data-rosey-tagger
               />
             </div>
           </div>
@@ -39,7 +43,7 @@ export default function GlobalCounter(block) {
                         <span className="percent">{number.suffix}</span>
                       )}
                     </div>
-                    <p>{number.text}</p>
+                    <p data-rosey={generateRoseyId(number.text)}>{number.text}</p>
                   </div>
                 </div>
               ))}
