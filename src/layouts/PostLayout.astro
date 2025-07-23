@@ -45,7 +45,7 @@ const posts = await getCollection("blog");
             <div class="inner-blog-details">
               <h2 class="w-xxl-70 w-xl-80 w-100">{title}</h2>
               <div class="inner-blog-details-meta">
-                <ul class="list-unstyled">
+                <ul class="list-unstyled" data-rosey-ns="common">
                   <li class="list-inline-item">
                     <p>
                       {
@@ -61,10 +61,10 @@ const posts = await getCollection("blog");
                     <p>{author}</p>
                   </li>
                   <li class="list-inline-item">
-                    <p>{readingTime} <span>minutes</span></p>
+                    <p>{readingTime} <span data-rosey="minutes">minutes</span></p>
                   </li>
                   <li class="list-inline-item">
-                    <p>{wordCount} <span>words</span></p>
+                    <p>{wordCount} <span data-rosey="words">words</span></p>
                   </li>
                 </ul>
               </div>
@@ -76,7 +76,7 @@ const posts = await getCollection("blog");
                 alt={featured_image.image_alt}
               />
             </div>
-            <div style={{ "max-width": "900px", margin: "0 auto" }}>
+            <div style={{ "max-width": "900px", margin: "0 auto" }} data-rosey-ns="rcc-markdown" data-rosey-tagger>
               <slot />
             </div>
           </article>
