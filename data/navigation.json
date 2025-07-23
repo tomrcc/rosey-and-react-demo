@@ -1,5 +1,22 @@
 {
   "logo": "/images/logo.svg",
+  "locales": [
+    {
+      "code": "de-DE",
+      "name": "Deutsch",
+      "flag": "/images/flags/germany-flag.png"
+    },
+    {
+      "code": "es-ES",
+      "name": "Spanish",
+      "flag": "/images/flags/spain-flag.png"
+    },
+    {
+      "code": "en",
+      "name": "English (US)",
+      "flag": "/images/flags/usa-flag.jpeg"
+    }
+  ],
   "items": [
     {
       "text": "Home",
