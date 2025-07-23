@@ -4,6 +4,9 @@ import { generateRoseyId } from "rosey-connector/helpers/text-formatters.mjs"
 
 export default function Navigation({ pageUrl }) {
   const [isSticky, setSticky] = useState(false);
+  const [isLangOpen, setLangOpen] = useState(false);
+
+  const pathname = pageUrl.pathname
 
   const handleScroll = () => {
     setSticky(window.scrollY >= 70);
@@ -186,6 +189,33 @@ export default function Navigation({ pageUrl }) {
             </div>
             </>
           ) : null }
+          </div>
+          <div className="language-picker">
+            <button onClick={() => {
+              setLangOpen(!isLangOpen)
+            }}>
+            Lang
+          </button>
+            <ul className="lang-list" style={isLangOpen ? {display: "flex"} : {display: "none"}}>
+            {
+              navigation.locales.map((locale) => {
+                return (
+                  <li key={locale.name}>
+                    <a href={`/${locale.code}${pathname}`}>
+                      <img
+                        className="w-[32px]"
+                        src={locale.flag}
+                        alt={`${locale.name} Flag`}
+                      />
+                      <span data-rosey={generateRoseyId(locale.name)}>
+                        {locale.name}
+                      </span>
+                    </a>
+                  </li>
+                );
+              })
+            }
+          </ul>
         </div>
         </nav>
       </header>
