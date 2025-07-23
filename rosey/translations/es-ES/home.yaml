@@ -1,0 +1,149 @@
+_inputs:
+  $:
+    type: object
+    comment: "[index.html](https://dreamy-parsnip.cloudvent.net/index.html)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (es-ES)
+          comment: "[index.html](https://dreamy-parsnip.cloudvent.net/index.html)"
+          inputs:
+            - Active-users-and-growing
+            - Amazing-team-members
+            - Beautiful-email-campaigns
+            - Established-in
+            - Scale-your
+            - Try-This-Free
+            - Venture-capital-raised
+            - rcc-markdown:We-have-an-extensive-library-of-pre-written-sales-emails-proven-marketing-templates-and-more-to-get-you-started-on-your-next-project%2E
+            - rcc-markdown:With-Sendit-you-can-quickly-create-beautiful-rich-emails-that-capture-a-reader's-attention-engage-them-and-convert-them-into-customers%2E
+        - heading: Already translated (es-ES)
+          comment: "[index.html](https://dreamy-parsnip.cloudvent.net/index.html)"
+          inputs: []
+  Active-users-and-growing:
+    label: Active users and growing
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See in
+      context](https://dreamy-parsnip.cloudvent.net/index.html#:~:text=Active%2\
+      0users%20and%20growing)"
+    context: {}
+  Amazing-team-members:
+    label: Amazing team members
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See in
+      context](https://dreamy-parsnip.cloudvent.net/index.html#:~:text=Amazing%\
+      20team%20members)"
+    context: {}
+  Beautiful-email-campaigns:
+    label: Beautiful email campaigns
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See in
+      context](https://dreamy-parsnip.cloudvent.net/index.html#:~:text=Beautifu\
+      l%20email%20campaigns)"
+    context: {}
+  Established-in:
+    label: Established in
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://dreamy-parsnip.cloudvent.net/index.html#:~:text=Establis\
+      hed%20in)"
+    context: {}
+  Scale-your:
+    label: Scale your
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://dreamy-parsnip.cloudvent.net/index.html#:~:text=Scale%20\
+      your)"
+    context: {}
+  Try-This-Free:
+    label: Try This Free
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://dreamy-parsnip.cloudvent.net/index.html#:~:text=Try%20Th\
+      is%20Free)"
+    context: {}
+  Venture-capital-raised:
+    label: Venture capital raised
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See in
+      context](https://dreamy-parsnip.cloudvent.net/index.html#:~:text=Venture%\
+      20capital%20raised)"
+    context: {}
+  rcc-markdown:We-have-an-extensive-library-of-pre-written-sales-emails-proven-marketing-templates-and-more-to-get-you-started-on-your-next-project%2E:
+    label: We have an extensive library of pre-writte...
+    hidden: false
+    type: markdown
+    options:
+      bold: true
+      italic: true
+      strike: true
+      link: true
+      subscript: true
+      superscript: true
+      underline: true
+      code: true
+      undo: true
+      redo: true
+      removeformat: true
+      copyformatting: true
+    comment: "[See in
+      context](https://dreamy-parsnip.cloudvent.net/index.html#:~:text=We%20hav\
+      e%20an%20extensive,on%20your%20next%20project.)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: >
+        We have an extensive library of pre-written sales emails, proven
+        marketing templates, and more to get you started on your next project.
+  rcc-markdown:With-Sendit-you-can-quickly-create-beautiful-rich-emails-that-capture-a-reader's-attention-engage-them-and-convert-them-into-customers%2E:
+    label: With Sendit, you can quickly create beauti...
+    hidden: false
+    type: markdown
+    options:
+      bold: true
+      italic: true
+      strike: true
+      link: true
+      subscript: true
+      superscript: true
+      underline: true
+      code: true
+      undo: true
+      redo: true
+      removeformat: true
+      copyformatting: true
+    comment: "[See in
+      context](https://dreamy-parsnip.cloudvent.net/index.html#:~:text=With%20S\
+      endit%2C%20you%20can,convert%20them%20into%20customers.)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: >
+        With Sendit, you can quickly create beautiful rich emails that capture a
+        reader's attention, engage them, and convert them into customers.
+urlTranslation: index.html
+Active-users-and-growing: ""
+Amazing-team-members: ""
+Beautiful-email-campaigns: ""
+Established-in: ""
+Scale-your: ""
+Try-This-Free: ""
+Venture-capital-raised: ""
+rcc-markdown:We-have-an-extensive-library-of-pre-written-sales-emails-proven-marketing-templates-and-more-to-get-you-started-on-your-next-project%2E: ""
+rcc-markdown:With-Sendit-you-can-quickly-create-beautiful-rich-emails-that-capture-a-reader's-attention-engage-them-and-convert-them-into-customers%2E: ""

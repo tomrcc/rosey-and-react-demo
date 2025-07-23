@@ -1,0 +1,110 @@
+{
+	"Active-users-and-growing": {
+		"original": "Active users and growing",
+		"value": "Active users and growing"
+	},
+	"Amazing-team-members": {
+		"original": "Amazing team members",
+		"value": "Amazing team members"
+	},
+	"Beautiful-email-campaigns": {
+		"original": "Beautiful email campaigns",
+		"value": "Beautiful email campaigns"
+	},
+	"Built-for-your": {
+		"original": "Built for your",
+		"value": "Built for your"
+	},
+	"Established-in": {
+		"original": "Established in",
+		"value": "Established in"
+	},
+	"Scale-your": {
+		"original": "Scale your",
+		"value": "Scale your"
+	},
+	"Try-This-Free": {
+		"original": "Try This Free",
+		"value": "Try This Free"
+	},
+	"Venture-capital-raised": {
+		"original": "Venture capital raised",
+		"value": "Venture capital raised"
+	},
+	"common:About": {
+		"original": "About",
+		"value": "About"
+	},
+	"common:All-Articles": {
+		"original": "All Articles",
+		"value": "All Articles"
+	},
+	"common:Blog": {
+		"original": "Blog",
+		"value": "Blog"
+	},
+	"common:Contact": {
+		"original": "Contact",
+		"value": "Contact"
+	},
+	"common:Features": {
+		"original": "Features",
+		"value": "Features"
+	},
+	"common:Get-Started": {
+		"original": "Get Started",
+		"value": "Get Started"
+	},
+	"common:Home": {
+		"original": "Home",
+		"value": "Home"
+	},
+	"common:Marketing": {
+		"original": "Marketing",
+		"value": "Marketing"
+	},
+	"common:Pricing": {
+		"original": "Pricing",
+		"value": "Pricing"
+	},
+	"common:Technology": {
+		"original": "Technology",
+		"value": "Technology"
+	},
+	"common:minutes": {
+		"original": "minutes",
+		"value": "minutes"
+	},
+	"common:words": {
+		"original": "words",
+		"value": "words"
+	},
+	"rcc-markdown:Before-you-send-out-any-campaign-using-an-email-marketing-tool-make-sure-that-you-have-permission-from-your-subscribers-to-send-them-emails%2E-You-can-do-this-by-asking-them-during-signup-or-including-a-checkbox-in-the-subscription-form-asking-if-they'd-like-to-receive-marketing-communications-from-you-in-the-future%2E": {
+		"original": "Before you send out any campaign using an email marketing tool, make sure that you have permission from your subscribers to send them emails. You can do this by asking them during signup or including a checkbox in the subscription form asking if they’d like to receive marketing communications from you in the future.",
+		"value": "Before you send out any campaign using an email marketing tool, make sure that you have permission from your subscribers to send them emails. You can do this by asking them during signup or including a checkbox in the subscription form asking if they’d like to receive marketing communications from you in the future."
+	},
+	"rcc-markdown:Double-opt-in": {
+		"original": "Double opt-in",
+		"value": "Double opt-in"
+	},
+	"rcc-markdown:Use-double-opt-in-when-sending-out-marketing-emails%2E-This-means-that-the-recipient-must-have-previously-agreed-to-receive-emails-from-you-before-they-can-see-content-in-their-inboxes-or-on-their-mobile-devices%2E-This-helps-prevent-people-from-signing-up-for-newsletters-they-don't-want-and-can-help-protect-against-spam-complaints-from-users-who-didn't-know-they-had-signed-up-for-something-in-the-first-place%2E": {
+		"original": "Use double opt-in when sending out marketing emails. This means that the recipient must have previously agreed to receive emails from you before they can see content in their inboxes or on their mobile devices. This helps prevent people from signing up for newsletters they don’t want and can help protect against spam complaints from users who didn’t know they had signed up for something in the first place.",
+		"value": "Use double opt-in when sending out marketing emails. This means that the recipient must have previously agreed to receive emails from you before they can see content in their inboxes or on their mobile devices. This helps prevent people from signing up for newsletters they don’t want and can help protect against spam complaints from users who didn’t know they had signed up for something in the first place."
+	},
+	"rcc-markdown:We've-built-Sendit-from-the-ground-up-the-help-grow-your-business-faster%2E": {
+		"original": "We've built Sendit from the ground up the help grow your business faster.",
+		"value": "We've built Sendit from the ground up the help grow your business faster."
+	},
+	"rcc-markdown:We-have-an-extensive-library-of-pre-written-sales-emails-proven-marketing-templates-and-more-to-get-you-started-on-your-next-project%2E": {
+		"original": "We have an extensive library of pre-written sales emails, proven marketing templates, and more to get you started on your next project.",
+		"value": "We have an extensive library of pre-written sales emails, proven marketing templates, and more to get you started on your next project."
+	},
+	"rcc-markdown:When-you-send-an-email-campaign-you-expect-it-to-reach-your-readers-right-But-what-if-the-emails-go-straight-to-your-subscribers'-spam-folders-instead-of-their-inboxes-To-make-sure-your-emails-reach-their-recipients-successfully-follow-these-email-delivery-tips%2E": {
+		"original": "When you send an email campaign, you expect it to reach your readers, right? But what if the emails go straight to your subscribers’ spam folders instead of their inboxes? To make sure your emails reach their recipients successfully, follow these email delivery tips.",
+		"value": "When you send an email campaign, you expect it to reach your readers, right? But what if the emails go straight to your subscribers’ spam folders instead of their inboxes? To make sure your emails reach their recipients successfully, follow these email delivery tips."
+	},
+	"rcc-markdown:With-Sendit-you-can-quickly-create-beautiful-rich-emails-that-capture-a-reader's-attention-engage-them-and-convert-them-into-customers%2E": {
+		"original": "With Sendit, you can quickly create beautiful rich emails that capture a reader's attention, engage them, and convert them into customers.",
+		"value": "With Sendit, you can quickly create beautiful rich emails that capture a reader's attention, engage them, and convert them into customers."
+	}
+}

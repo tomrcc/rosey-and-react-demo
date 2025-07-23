@@ -1,0 +1,367 @@
+{
+  "version": 2,
+  "keys": {
+    "Active-users-and-growing": {
+      "original": "Active users and growing",
+      "value": null,
+      "pages": {
+        "about/index.html": 1,
+        "index.html": 1
+      },
+      "total": 2
+    },
+    "Amazing-team-members": {
+      "original": "Amazing team members",
+      "value": null,
+      "pages": {
+        "about/index.html": 1,
+        "index.html": 1
+      },
+      "total": 2
+    },
+    "Beautiful-email-campaigns": {
+      "original": "Beautiful email campaigns",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    },
+    "Built-for-your": {
+      "original": "Built for your",
+      "value": null,
+      "pages": {
+        "about/index.html": 1
+      },
+      "total": 1
+    },
+    "Established-in": {
+      "original": "Established in",
+      "value": null,
+      "pages": {
+        "about/index.html": 1,
+        "index.html": 1
+      },
+      "total": 2
+    },
+    "Scale-your": {
+      "original": "Scale your",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    },
+    "Try-This-Free": {
+      "original": "Try This Free",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    },
+    "Venture-capital-raised": {
+      "original": "Venture capital raised",
+      "value": null,
+      "pages": {
+        "about/index.html": 1,
+        "index.html": 1
+      },
+      "total": 2
+    },
+    "common:About": {
+      "original": "About",
+      "value": null,
+      "pages": {
+        "404.html": 1,
+        "about/index.html": 1,
+        "blog/email-delivery-tips/index.html": 1,
+        "blog/how-to-host-better-email-marketing-campaigns/index.html": 1,
+        "blog/index.html": 1,
+        "contact/index.html": 1,
+        "features/index.html": 1,
+        "index.html": 1,
+        "login/index.html": 1,
+        "pricing/index.html": 1,
+        "privacy/index.html": 1,
+        "signup/index.html": 1,
+        "tags/blog/index.html": 1,
+        "tags/email/index.html": 1,
+        "tags/marketing/index.html": 1
+      },
+      "total": 15
+    },
+    "common:All-Articles": {
+      "original": "All Articles",
+      "value": null,
+      "pages": {
+        "404.html": 1,
+        "about/index.html": 1,
+        "blog/email-delivery-tips/index.html": 1,
+        "blog/how-to-host-better-email-marketing-campaigns/index.html": 1,
+        "blog/index.html": 1,
+        "contact/index.html": 1,
+        "features/index.html": 1,
+        "index.html": 1,
+        "login/index.html": 1,
+        "pricing/index.html": 1,
+        "privacy/index.html": 1,
+        "signup/index.html": 1,
+        "tags/blog/index.html": 1,
+        "tags/email/index.html": 1,
+        "tags/marketing/index.html": 1
+      },
+      "total": 15
+    },
+    "common:Blog": {
+      "original": "Blog",
+      "value": null,
+      "pages": {
+        "404.html": 1,
+        "about/index.html": 1,
+        "blog/email-delivery-tips/index.html": 1,
+        "blog/how-to-host-better-email-marketing-campaigns/index.html": 1,
+        "blog/index.html": 1,
+        "contact/index.html": 1,
+        "features/index.html": 1,
+        "index.html": 1,
+        "login/index.html": 1,
+        "pricing/index.html": 1,
+        "privacy/index.html": 1,
+        "signup/index.html": 1,
+        "tags/blog/index.html": 1,
+        "tags/email/index.html": 1,
+        "tags/marketing/index.html": 1
+      },
+      "total": 15
+    },
+    "common:Contact": {
+      "original": "Contact",
+      "value": null,
+      "pages": {
+        "404.html": 1,
+        "about/index.html": 1,
+        "blog/email-delivery-tips/index.html": 1,
+        "blog/how-to-host-better-email-marketing-campaigns/index.html": 1,
+        "blog/index.html": 1,
+        "contact/index.html": 1,
+        "features/index.html": 1,
+        "index.html": 1,
+        "login/index.html": 1,
+        "pricing/index.html": 1,
+        "privacy/index.html": 1,
+        "signup/index.html": 1,
+        "tags/blog/index.html": 1,
+        "tags/email/index.html": 1,
+        "tags/marketing/index.html": 1
+      },
+      "total": 15
+    },
+    "common:Features": {
+      "original": "Features",
+      "value": null,
+      "pages": {
+        "404.html": 1,
+        "about/index.html": 1,
+        "blog/email-delivery-tips/index.html": 1,
+        "blog/how-to-host-better-email-marketing-campaigns/index.html": 1,
+        "blog/index.html": 1,
+        "contact/index.html": 1,
+        "features/index.html": 1,
+        "index.html": 1,
+        "login/index.html": 1,
+        "pricing/index.html": 1,
+        "privacy/index.html": 1,
+        "signup/index.html": 1,
+        "tags/blog/index.html": 1,
+        "tags/email/index.html": 1,
+        "tags/marketing/index.html": 1
+      },
+      "total": 15
+    },
+    "common:Get-Started": {
+      "original": "Get Started",
+      "value": null,
+      "pages": {
+        "404.html": 1,
+        "about/index.html": 1,
+        "blog/email-delivery-tips/index.html": 1,
+        "blog/how-to-host-better-email-marketing-campaigns/index.html": 1,
+        "blog/index.html": 1,
+        "contact/index.html": 1,
+        "features/index.html": 1,
+        "index.html": 1,
+        "login/index.html": 1,
+        "pricing/index.html": 1,
+        "privacy/index.html": 1,
+        "signup/index.html": 1,
+        "tags/blog/index.html": 1,
+        "tags/email/index.html": 1,
+        "tags/marketing/index.html": 1
+      },
+      "total": 15
+    },
+    "common:Home": {
+      "original": "Home",
+      "value": null,
+      "pages": {
+        "404.html": 1,
+        "about/index.html": 1,
+        "blog/email-delivery-tips/index.html": 1,
+        "blog/how-to-host-better-email-marketing-campaigns/index.html": 1,
+        "blog/index.html": 1,
+        "contact/index.html": 1,
+        "features/index.html": 1,
+        "index.html": 1,
+        "login/index.html": 1,
+        "pricing/index.html": 1,
+        "privacy/index.html": 1,
+        "signup/index.html": 1,
+        "tags/blog/index.html": 1,
+        "tags/email/index.html": 1,
+        "tags/marketing/index.html": 1
+      },
+      "total": 15
+    },
+    "common:Marketing": {
+      "original": "Marketing",
+      "value": null,
+      "pages": {
+        "404.html": 1,
+        "about/index.html": 1,
+        "blog/email-delivery-tips/index.html": 1,
+        "blog/how-to-host-better-email-marketing-campaigns/index.html": 1,
+        "blog/index.html": 1,
+        "contact/index.html": 1,
+        "features/index.html": 1,
+        "index.html": 1,
+        "login/index.html": 1,
+        "pricing/index.html": 1,
+        "privacy/index.html": 1,
+        "signup/index.html": 1,
+        "tags/blog/index.html": 1,
+        "tags/email/index.html": 1,
+        "tags/marketing/index.html": 1
+      },
+      "total": 15
+    },
+    "common:Pricing": {
+      "original": "Pricing",
+      "value": null,
+      "pages": {
+        "404.html": 1,
+        "about/index.html": 1,
+        "blog/email-delivery-tips/index.html": 1,
+        "blog/how-to-host-better-email-marketing-campaigns/index.html": 1,
+        "blog/index.html": 1,
+        "contact/index.html": 1,
+        "features/index.html": 1,
+        "index.html": 1,
+        "login/index.html": 1,
+        "pricing/index.html": 1,
+        "privacy/index.html": 1,
+        "signup/index.html": 1,
+        "tags/blog/index.html": 1,
+        "tags/email/index.html": 1,
+        "tags/marketing/index.html": 1
+      },
+      "total": 15
+    },
+    "common:Technology": {
+      "original": "Technology",
+      "value": null,
+      "pages": {
+        "404.html": 1,
+        "about/index.html": 1,
+        "blog/email-delivery-tips/index.html": 1,
+        "blog/how-to-host-better-email-marketing-campaigns/index.html": 1,
+        "blog/index.html": 1,
+        "contact/index.html": 1,
+        "features/index.html": 1,
+        "index.html": 1,
+        "login/index.html": 1,
+        "pricing/index.html": 1,
+        "privacy/index.html": 1,
+        "signup/index.html": 1,
+        "tags/blog/index.html": 1,
+        "tags/email/index.html": 1,
+        "tags/marketing/index.html": 1
+      },
+      "total": 15
+    },
+    "common:minutes": {
+      "original": "minutes",
+      "value": null,
+      "pages": {
+        "blog/email-delivery-tips/index.html": 1,
+        "blog/how-to-host-better-email-marketing-campaigns/index.html": 1
+      },
+      "total": 2
+    },
+    "common:words": {
+      "original": "words",
+      "value": null,
+      "pages": {
+        "blog/email-delivery-tips/index.html": 1,
+        "blog/how-to-host-better-email-marketing-campaigns/index.html": 1
+      },
+      "total": 2
+    },
+    "rcc-markdown:Before-you-send-out-any-campaign-using-an-email-marketing-tool-make-sure-that-you-have-permission-from-your-subscribers-to-send-them-emails%2E-You-can-do-this-by-asking-them-during-signup-or-including-a-checkbox-in-the-subscription-form-asking-if-they'd-like-to-receive-marketing-communications-from-you-in-the-future%2E": {
+      "original": "Before you send out any campaign using an email marketing tool, make sure that you have permission from your subscribers to send them emails. You can do this by asking them during signup or including a checkbox in the subscription form asking if they’d like to receive marketing communications from you in the future.",
+      "value": null,
+      "pages": {
+        "blog/email-delivery-tips/index.html": 1
+      },
+      "total": 1
+    },
+    "rcc-markdown:Double-opt-in": {
+      "original": "Double opt-in",
+      "value": null,
+      "pages": {
+        "blog/email-delivery-tips/index.html": 1
+      },
+      "total": 1
+    },
+    "rcc-markdown:Use-double-opt-in-when-sending-out-marketing-emails%2E-This-means-that-the-recipient-must-have-previously-agreed-to-receive-emails-from-you-before-they-can-see-content-in-their-inboxes-or-on-their-mobile-devices%2E-This-helps-prevent-people-from-signing-up-for-newsletters-they-don't-want-and-can-help-protect-against-spam-complaints-from-users-who-didn't-know-they-had-signed-up-for-something-in-the-first-place%2E": {
+      "original": "Use double opt-in when sending out marketing emails. This means that the recipient must have previously agreed to receive emails from you before they can see content in their inboxes or on their mobile devices. This helps prevent people from signing up for newsletters they don’t want and can help protect against spam complaints from users who didn’t know they had signed up for something in the first place.",
+      "value": null,
+      "pages": {
+        "blog/email-delivery-tips/index.html": 1
+      },
+      "total": 1
+    },
+    "rcc-markdown:We've-built-Sendit-from-the-ground-up-the-help-grow-your-business-faster%2E": {
+      "original": "We've built Sendit from the ground up the help grow your business faster.",
+      "value": null,
+      "pages": {
+        "about/index.html": 1
+      },
+      "total": 1
+    },
+    "rcc-markdown:We-have-an-extensive-library-of-pre-written-sales-emails-proven-marketing-templates-and-more-to-get-you-started-on-your-next-project%2E": {
+      "original": "We have an extensive library of pre-written sales emails, proven marketing templates, and more to get you started on your next project.",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    },
+    "rcc-markdown:When-you-send-an-email-campaign-you-expect-it-to-reach-your-readers-right-But-what-if-the-emails-go-straight-to-your-subscribers'-spam-folders-instead-of-their-inboxes-To-make-sure-your-emails-reach-their-recipients-successfully-follow-these-email-delivery-tips%2E": {
+      "original": "When you send an email campaign, you expect it to reach your readers, right? But what if the emails go straight to your subscribers’ spam folders instead of their inboxes? To make sure your emails reach their recipients successfully, follow these email delivery tips.",
+      "value": null,
+      "pages": {
+        "blog/how-to-host-better-email-marketing-campaigns/index.html": 1
+      },
+      "total": 1
+    },
+    "rcc-markdown:With-Sendit-you-can-quickly-create-beautiful-rich-emails-that-capture-a-reader's-attention-engage-them-and-convert-them-into-customers%2E": {
+      "original": "With Sendit, you can quickly create beautiful rich emails that capture a reader's attention, engage them, and convert them into customers.",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    }
+  }
+}

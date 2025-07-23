@@ -1,0 +1,14 @@
+_inputs:
+  $:
+    type: object
+    comment: "[signup/](https://dreamy-parsnip.cloudvent.net/signup/)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (es-ES)
+          comment: "[signup/](https://dreamy-parsnip.cloudvent.net/signup/)"
+          inputs: []
+        - heading: Already translated (es-ES)
+          comment: "[signup/](https://dreamy-parsnip.cloudvent.net/signup/)"
+          inputs: []
+urlTranslation: signup/index.html

@@ -1,0 +1,14 @@
+_inputs:
+  $:
+    type: object
+    comment: "[contact/](https://dreamy-parsnip.cloudvent.net/contact/)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (es-ES)
+          comment: "[contact/](https://dreamy-parsnip.cloudvent.net/contact/)"
+          inputs: []
+        - heading: Already translated (es-ES)
+          comment: "[contact/](https://dreamy-parsnip.cloudvent.net/contact/)"
+          inputs: []
+urlTranslation: contact/index.html
