@@ -12,11 +12,14 @@ _inputs:
             - common:All-Articles
             - common:Blog
             - common:Contact
+            - common:Deutsch
+            - common:English-(US)
             - common:Features
             - common:Get-Started
             - common:Home
             - common:Marketing
             - common:Pricing
+            - common:Spanish
             - common:Technology
             - common:minutes
             - common:words
@@ -46,6 +49,20 @@ _inputs:
     context: {}
   common:Contact:
     label: Contact
+    hidden: false
+    type: text
+    options: {}
+    comment: ""
+    context: {}
+  common:Deutsch:
+    label: Deutsch
+    hidden: false
+    type: text
+    options: {}
+    comment: ""
+    context: {}
+  common:English-(US):
+    label: English (US)
     hidden: false
     type: text
     options: {}
@@ -86,6 +103,13 @@ _inputs:
     options: {}
     comment: ""
     context: {}
+  common:Spanish:
+    label: Spanish
+    hidden: false
+    type: text
+    options: {}
+    comment: ""
+    context: {}
   common:Technology:
     label: Technology
     hidden: false
@@ -111,11 +135,14 @@ common:About: ""
 common:All-Articles: ""
 common:Blog: ""
 common:Contact: ""
+common:Deutsch: ""
+common:English-(US): ""
 common:Features: ""
 common:Get-Started: ""
 common:Home: ""
 common:Marketing: ""
 common:Pricing: ""
+common:Spanish: ""
 common:Technology: ""
 common:minutes: ""
 common:words: ""
