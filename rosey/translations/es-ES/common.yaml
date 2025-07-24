@@ -7,13 +7,13 @@ _inputs:
       groups:
         - heading: Still to translate (es-ES)
           comment: Text to translate
-          inputs:
-            - common:Blog
+          inputs: []
         - heading: Already translated (es-ES)
           comment: Text already translated
           inputs:
             - common:About
             - common:All-Articles
+            - common:Blog
             - common:Contact
             - common:Features
             - common:Get-Started
@@ -111,7 +111,7 @@ common:About: |
   Acerca de
 common:All-Articles: |
   Todos los artículos
-common:Blog: ""
+common:Blog: Blog
 common:Contact: |
   Contacto
 common:Features: |
