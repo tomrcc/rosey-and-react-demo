@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import navigation from "@data/navigation.json";
 import { generateRoseyId } from "rosey-connector/helpers/text-formatters.mjs"
 
-export default function Navigation({ pageUrl }) {
+export default function Navigation({ pageUrl, pagePathname }) {
   const [isSticky, setSticky] = useState(false);
   const [isLangOpen, setLangOpen] = useState(false);
   const [localeData, setLocaleData] = useState(false);
@@ -206,7 +206,7 @@ export default function Navigation({ pageUrl }) {
               navigation.locales.map((locale) => {
                 return (
                   <li key={locale.name}>
-                    <a href={`/${locale.code}/${pageUrl}`}> 
+                    <a href={`/${locale.code}/${pagePathname}`}> 
                       <img
                         className="w-[32px]"
                         src={locale.flag}

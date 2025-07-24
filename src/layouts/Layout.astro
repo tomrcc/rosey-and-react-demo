@@ -29,6 +29,7 @@ const description = seo?.page_description || site.description;
 const image = seo?.featured_image || site.image;
 const image_alt = seo?.featured_image_alt || site.image_alt;
 const canonicalURL = new URL(seo?.canonical_url ?? Astro.url.pathname, baseUrl);
+const pagePathname = Astro.url.pathname;
 ---
 
 <!DOCTYPE html>
@@ -75,7 +76,7 @@ const canonicalURL = new URL(seo?.canonical_url ?? Astro.url.pathname, baseUrl);
     />
   </head>
   <body>
-    <Navigation client:load pageUrl={canonicalURL} />
+    <Navigation client:load pageUrl={canonicalURL} pagePathname={pagePathname} />
     <slot />
     <Footer />
 
