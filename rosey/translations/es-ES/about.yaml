@@ -7,7 +7,8 @@ _inputs:
       groups:
         - heading: Still to translate (es-ES)
           comment: "[about/](https://dreamy-parsnip.cloudvent.net/about/)"
-          inputs: []
+          inputs:
+            - Business
         - heading: Already translated (es-ES)
           comment: "[about/](https://dreamy-parsnip.cloudvent.net/about/)"
           inputs:
@@ -43,6 +44,14 @@ _inputs:
     comment: "[See in
       context](https://dreamy-parsnip.cloudvent.net/about/#:~:text=Built%20for%\
       20your)"
+    context: {}
+  Business:
+    label: Business
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://dreamy-parsnip.cloudvent.net/about/#:~:text=Business)"
     context: {}
   Established-in:
     label: Established in
@@ -95,6 +104,8 @@ Amazing-team-members: |
   Miembros del equipo increíbles
 Built-for-your: |
   Construido para su
+Business: |
+  Negocio
 Established-in: |
   Establecido en
 Venture-capital-raised: |

@@ -10,13 +10,13 @@ _inputs:
           comment: "[blog/how-to-host-better-email-marketing-campaigns/](https://dreamy-p\
             arsnip.cloudvent.net/blog/how-to-host-better-email-marketing-campai\
             gns/)"
-          inputs:
-            - rcc-markdown:When-you-send-an-email-campaign-you-expect-it-to-reach-your-readers-right-But-what-if-the-emails-go-straight-to-your-subscribers'-spam-folders-instead-of-their-inboxes-To-make-sure-your-emails-reach-their-recipients-successfully-follow-these-email-delivery-tips%2E
+          inputs: []
         - heading: Already translated (de-DE)
           comment: "[blog/how-to-host-better-email-marketing-campaigns/](https://dreamy-p\
             arsnip.cloudvent.net/blog/how-to-host-better-email-marketing-campai\
             gns/)"
-          inputs: []
+          inputs:
+            - rcc-markdown:When-you-send-an-email-campaign-you-expect-it-to-reach-your-readers-right-But-what-if-the-emails-go-straight-to-your-subscribers'-spam-folders-instead-of-their-inboxes-To-make-sure-your-emails-reach-their-recipients-successfully-follow-these-email-delivery-tips%2E
   rcc-markdown:When-you-send-an-email-campaign-you-expect-it-to-reach-your-readers-right-But-what-if-the-emails-go-straight-to-your-subscribers'-spam-folders-instead-of-their-inboxes-To-make-sure-your-emails-reach-their-recipients-successfully-follow-these-email-delivery-tips%2E:
     label: When you send an email campaign, you expec...
     hidden: false

@@ -35,6 +35,15 @@
       },
       "total": 1
     },
+    "Business": {
+      "original": "Business",
+      "value": null,
+      "pages": {
+        "about/index.html": 1,
+        "index.html": 1
+      },
+      "total": 2
+    },
     "Established-in": {
       "original": "Established in",
       "value": null,

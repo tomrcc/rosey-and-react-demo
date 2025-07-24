@@ -8,15 +8,16 @@ _inputs:
         - heading: Still to translate (de-DE)
           comment: "[about/](https://dreamy-parsnip.cloudvent.net/about/)"
           inputs:
+            - Business
+        - heading: Already translated (de-DE)
+          comment: "[about/](https://dreamy-parsnip.cloudvent.net/about/)"
+          inputs:
             - Active-users-and-growing
             - Amazing-team-members
             - Built-for-your
             - Established-in
             - Venture-capital-raised
             - rcc-markdown:We've-built-Sendit-from-the-ground-up-the-help-grow-your-business-faster%2E
-        - heading: Already translated (de-DE)
-          comment: "[about/](https://dreamy-parsnip.cloudvent.net/about/)"
-          inputs: []
   Active-users-and-growing:
     label: Active users and growing
     hidden: false
@@ -43,6 +44,14 @@ _inputs:
     comment: "[See in
       context](https://dreamy-parsnip.cloudvent.net/about/#:~:text=Built%20for%\
       20your)"
+    context: {}
+  Business:
+    label: Business
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://dreamy-parsnip.cloudvent.net/about/#:~:text=Business)"
     context: {}
   Established-in:
     label: Established in
@@ -95,6 +104,8 @@ Amazing-team-members: |
   Erstaunliche Teammitglieder
 Built-for-your: |
   Entwickelt für Ihre
+Business: |
+  Geschäft
 Established-in: |
   Gegründet in
 Venture-capital-raised: |
