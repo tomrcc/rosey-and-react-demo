@@ -8,7 +8,6 @@ export default function Navigation({ pageUrl }) {
 
   const pathname = pageUrl.pathname;
   const locale = pathname.split("/")[1];
-
   const allLocales = import.meta.glob('/rosey/locales/*.json', { eager: true });
   const localeData = allLocales[`/rosey/locales/${locale}.json`]?.default;
   console.log({localeData})
