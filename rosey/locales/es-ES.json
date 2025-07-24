@@ -1,122 +1,122 @@
 {
 	"Active-users-and-growing": {
 		"original": "Active users and growing",
-		"value": "Active users and growing"
+		"value": "Usuarios activos y en crecimiento\n"
 	},
 	"Amazing-team-members": {
 		"original": "Amazing team members",
-		"value": "Amazing team members"
+		"value": "Miembros del equipo increíbles\n"
 	},
 	"Beautiful-email-campaigns": {
 		"original": "Beautiful email campaigns",
-		"value": "Beautiful email campaigns"
+		"value": "Hermosas campañas de correo electrónico\n"
 	},
 	"Built-for-your": {
 		"original": "Built for your",
-		"value": "Built for your"
+		"value": "Construido para su\n"
 	},
 	"Established-in": {
 		"original": "Established in",
-		"value": "Established in"
+		"value": "Establecido en\n"
 	},
 	"Scale-your": {
 		"original": "Scale your",
-		"value": "Scale your"
+		"value": "Escala tu\n"
 	},
 	"Try-This-Free": {
 		"original": "Try This Free",
-		"value": "Try This Free"
+		"value": "Prueba esto gratis\n"
 	},
 	"Venture-capital-raised": {
 		"original": "Venture capital raised",
-		"value": "Venture capital raised"
+		"value": "Capital riesgo recaudado\n"
 	},
 	"common:About": {
 		"original": "About",
-		"value": "About"
+		"value": "Acerca de\n"
 	},
 	"common:All-Articles": {
 		"original": "All Articles",
-		"value": "All Articles"
+		"value": "Todos los artículos\n"
 	},
 	"common:Blog": {
 		"original": "Blog",
-		"value": "Blog"
+		"value": "Blog\n"
 	},
 	"common:Contact": {
 		"original": "Contact",
-		"value": "Contact"
+		"value": "Contacto\n"
 	},
 	"common:Deutsch": {
 		"original": "Deutsch",
-		"value": "Deutsch"
+		"value": "Deutsch\n"
 	},
 	"common:English-(US)": {
 		"original": "English (US)",
-		"value": "English (US)"
+		"value": "Inglés (EE. UU.)\n"
 	},
 	"common:Features": {
 		"original": "Features",
-		"value": "Features"
+		"value": "Funciones\n"
 	},
 	"common:Get-Started": {
 		"original": "Get Started",
-		"value": "Get Started"
+		"value": "Comenzar\n"
 	},
 	"common:Home": {
 		"original": "Home",
-		"value": "Home"
+		"value": "Hogar\n"
 	},
 	"common:Marketing": {
 		"original": "Marketing",
-		"value": "Marketing"
+		"value": "Marketing\n"
 	},
 	"common:Pricing": {
 		"original": "Pricing",
-		"value": "Pricing"
+		"value": "Precios\n"
 	},
 	"common:Spanish": {
 		"original": "Spanish",
-		"value": "Spanish"
+		"value": "Español\n"
 	},
 	"common:Technology": {
 		"original": "Technology",
-		"value": "Technology"
+		"value": "Tecnología\n"
 	},
 	"common:minutes": {
 		"original": "minutes",
-		"value": "minutes"
+		"value": "acta\n"
 	},
 	"common:words": {
 		"original": "words",
-		"value": "words"
+		"value": "palabras\n"
 	},
 	"rcc-markdown:Before-you-send-out-any-campaign-using-an-email-marketing-tool-make-sure-that-you-have-permission-from-your-subscribers-to-send-them-emails%2E-You-can-do-this-by-asking-them-during-signup-or-including-a-checkbox-in-the-subscription-form-asking-if-they'd-like-to-receive-marketing-communications-from-you-in-the-future%2E": {
 		"original": "Before you send out any campaign using an email marketing tool, make sure that you have permission from your subscribers to send them emails. You can do this by asking them during signup or including a checkbox in the subscription form asking if they’d like to receive marketing communications from you in the future.",
-		"value": "Before you send out any campaign using an email marketing tool, make sure that you have permission from your subscribers to send them emails. You can do this by asking them during signup or including a checkbox in the subscription form asking if they’d like to receive marketing communications from you in the future."
+		"value": "Antes de enviar cualquier campaña utilizando una herramienta de marketing por correo electrónico, asegúrese de tener permiso de sus suscriptores para enviarles correos electrónicos. Puede hacerlo preguntándoles durante el registro o incluyendo una casilla de verificación en el formulario de suscripción que les pregunte si les gustaría recibir comunicaciones de marketing de usted en el futuro.\n"
 	},
 	"rcc-markdown:Double-opt-in": {
 		"original": "Double opt-in",
-		"value": "Double opt-in"
+		"value": "Doble opt-in\n"
 	},
 	"rcc-markdown:Use-double-opt-in-when-sending-out-marketing-emails%2E-This-means-that-the-recipient-must-have-previously-agreed-to-receive-emails-from-you-before-they-can-see-content-in-their-inboxes-or-on-their-mobile-devices%2E-This-helps-prevent-people-from-signing-up-for-newsletters-they-don't-want-and-can-help-protect-against-spam-complaints-from-users-who-didn't-know-they-had-signed-up-for-something-in-the-first-place%2E": {
 		"original": "Use double opt-in when sending out marketing emails. This means that the recipient must have previously agreed to receive emails from you before they can see content in their inboxes or on their mobile devices. This helps prevent people from signing up for newsletters they don’t want and can help protect against spam complaints from users who didn’t know they had signed up for something in the first place.",
-		"value": "Use double opt-in when sending out marketing emails. This means that the recipient must have previously agreed to receive emails from you before they can see content in their inboxes or on their mobile devices. This helps prevent people from signing up for newsletters they don’t want and can help protect against spam complaints from users who didn’t know they had signed up for something in the first place."
+		"value": "Utilice el doble opt-in al enviar correos electrónicos de marketing. Esto significa que el destinatario debe haber aceptado previamente recibir correos electrónicos de usted antes de poder ver el contenido en sus bandejas de entrada o en sus dispositivos móviles. Esto ayuda a evitar que las personas se suscriban a boletines informativos que no desean y puede ayudar a protegerse contra las quejas de spam de usuarios que no sabían que se habían suscrito a algo en primer lugar.\n"
 	},
 	"rcc-markdown:We've-built-Sendit-from-the-ground-up-the-help-grow-your-business-faster%2E": {
 		"original": "We've built Sendit from the ground up the help grow your business faster.",
-		"value": "We've built Sendit from the ground up the help grow your business faster."
+		"value": "Hemos construido Sendit desde cero para ayudar a hacer crecer tu negocio más rápido.\n"
 	},
 	"rcc-markdown:We-have-an-extensive-library-of-pre-written-sales-emails-proven-marketing-templates-and-more-to-get-you-started-on-your-next-project%2E": {
 		"original": "We have an extensive library of pre-written sales emails, proven marketing templates, and more to get you started on your next project.",
-		"value": "We have an extensive library of pre-written sales emails, proven marketing templates, and more to get you started on your next project."
+		"value": "Tenemos una extensa biblioteca de correos electrónicos de ventas preescritos, plantillas de marketing comprobadas y más para que pueda comenzar su próximo proyecto.\n"
 	},
 	"rcc-markdown:When-you-send-an-email-campaign-you-expect-it-to-reach-your-readers-right-But-what-if-the-emails-go-straight-to-your-subscribers'-spam-folders-instead-of-their-inboxes-To-make-sure-your-emails-reach-their-recipients-successfully-follow-these-email-delivery-tips%2E": {
 		"original": "When you send an email campaign, you expect it to reach your readers, right? But what if the emails go straight to your subscribers’ spam folders instead of their inboxes? To make sure your emails reach their recipients successfully, follow these email delivery tips.",
-		"value": "When you send an email campaign, you expect it to reach your readers, right? But what if the emails go straight to your subscribers’ spam folders instead of their inboxes? To make sure your emails reach their recipients successfully, follow these email delivery tips."
+		"value": "Cuando envías una campaña de correo electrónico, esperas que llegue a tus lectores, ¿verdad? Pero, ¿qué pasa si los correos electrónicos van directamente a las carpetas de spam de sus suscriptores en lugar de a sus bandejas de entrada? Para asegurarse de que sus correos electrónicos lleguen a sus destinatarios con éxito, siga estos consejos de entrega de correo electrónico.\n"
 	},
 	"rcc-markdown:With-Sendit-you-can-quickly-create-beautiful-rich-emails-that-capture-a-reader's-attention-engage-them-and-convert-them-into-customers%2E": {
 		"original": "With Sendit, you can quickly create beautiful rich emails that capture a reader's attention, engage them, and convert them into customers.",
-		"value": "With Sendit, you can quickly create beautiful rich emails that capture a reader's attention, engage them, and convert them into customers."
+		"value": "Con Sendit, puedes crear rápidamente hermosos correos electrónicos enriquecidos que capten la atención de los lectores, los atraigan y los conviertan en clientes.\n"
 	}
 }
