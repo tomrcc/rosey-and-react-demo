@@ -44,6 +44,14 @@
       },
       "total": 2
     },
+    "Email-delivery-tips": {
+      "original": "Email delivery tips",
+      "value": null,
+      "pages": {
+        "blog/email-delivery-tips/index.html": 1
+      },
+      "total": 1
+    },
     "Established-in": {
       "original": "Established in",
       "value": null,
@@ -52,6 +60,14 @@
         "index.html": 1
       },
       "total": 2
+    },
+    "How-to-host-better-email-marketing-campaigns": {
+      "original": "How to host better email marketing campaigns?",
+      "value": null,
+      "pages": {
+        "blog/how-to-host-better-email-marketing-campaigns/index.html": 1
+      },
+      "total": 1
     },
     "Scale-your": {
       "original": "Scale your",
