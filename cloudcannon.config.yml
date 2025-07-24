@@ -22,7 +22,7 @@ collections_config:
         path: schemas/post.md
   pages:
     path: src/content/pages
-    url: "/[slug]/"
+    url: '/[full_slug]/'
     glob:
       - '**/*.md'
     icon: wysiwyg
