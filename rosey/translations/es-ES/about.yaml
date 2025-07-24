@@ -89,9 +89,16 @@ _inputs:
       content: >
         We've built Sendit from the ground up the help grow your business faster.
 urlTranslation: about/index.html
-Active-users-and-growing: ""
-Amazing-team-members: ""
-Built-for-your: ""
-Established-in: ""
-Venture-capital-raised: ""
-rcc-markdown:We've-built-Sendit-from-the-ground-up-the-help-grow-your-business-faster%2E: ""
+Active-users-and-growing: |
+  Usuarios activos y en crecimiento
+Amazing-team-members: |
+  Miembros del equipo increíbles
+Built-for-your: |
+  Construido para su
+Established-in: |
+  Establecido en
+Venture-capital-raised: |
+  Capital riesgo recaudado
+rcc-markdown:We've-built-Sendit-from-the-ground-up-the-help-grow-your-business-faster%2E: >
+  Hemos construido Sendit desde cero para ayudar a hacer crecer tu negocio más
+  rápido.

@@ -138,12 +138,25 @@ _inputs:
         With Sendit, you can quickly create beautiful rich emails that capture a
         reader's attention, engage them, and convert them into customers.
 urlTranslation: index.html
-Active-users-and-growing: ""
-Amazing-team-members: ""
-Beautiful-email-campaigns: ""
-Established-in: ""
-Scale-your: ""
-Try-This-Free: ""
-Venture-capital-raised: ""
-rcc-markdown:We-have-an-extensive-library-of-pre-written-sales-emails-proven-marketing-templates-and-more-to-get-you-started-on-your-next-project%2E: ""
-rcc-markdown:With-Sendit-you-can-quickly-create-beautiful-rich-emails-that-capture-a-reader's-attention-engage-them-and-convert-them-into-customers%2E: ""
+Active-users-and-growing: |
+  Usuarios activos y en crecimiento
+Amazing-team-members: |
+  Miembros del equipo increíbles
+Beautiful-email-campaigns: |
+  Hermosas campañas de correo electrónico
+Established-in: |
+  Establecido en
+Scale-your: |
+  Escala tu
+Try-This-Free: |
+  Prueba esto gratis
+Venture-capital-raised: |
+  Capital riesgo recaudado
+rcc-markdown:We-have-an-extensive-library-of-pre-written-sales-emails-proven-marketing-templates-and-more-to-get-you-started-on-your-next-project%2E: >
+  Tenemos una extensa biblioteca de correos electrónicos de ventas preescritos,
+  plantillas de marketing comprobadas y más para que pueda comenzar su próximo
+  proyecto.
+rcc-markdown:With-Sendit-you-can-quickly-create-beautiful-rich-emails-that-capture-a-reader's-attention-engage-them-and-convert-them-into-customers%2E: >
+  Con Sendit, puedes crear rápidamente hermosos correos electrónicos
+  enriquecidos que capten la atención de los lectores, los atraigan y los
+  conviertan en clientes.

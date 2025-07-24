@@ -100,6 +100,20 @@ _inputs:
         can help protect against spam complaints from users who didn’t know they
         had signed up for something in the first place.
 urlTranslation: blog/email-delivery-tips/index.html
-rcc-markdown:Before-you-send-out-any-campaign-using-an-email-marketing-tool-make-sure-that-you-have-permission-from-your-subscribers-to-send-them-emails%2E-You-can-do-this-by-asking-them-during-signup-or-including-a-checkbox-in-the-subscription-form-asking-if-they'd-like-to-receive-marketing-communications-from-you-in-the-future%2E: ""
-rcc-markdown:Double-opt-in: ""
-rcc-markdown:Use-double-opt-in-when-sending-out-marketing-emails%2E-This-means-that-the-recipient-must-have-previously-agreed-to-receive-emails-from-you-before-they-can-see-content-in-their-inboxes-or-on-their-mobile-devices%2E-This-helps-prevent-people-from-signing-up-for-newsletters-they-don't-want-and-can-help-protect-against-spam-complaints-from-users-who-didn't-know-they-had-signed-up-for-something-in-the-first-place%2E: ""
+rcc-markdown:Before-you-send-out-any-campaign-using-an-email-marketing-tool-make-sure-that-you-have-permission-from-your-subscribers-to-send-them-emails%2E-You-can-do-this-by-asking-them-during-signup-or-including-a-checkbox-in-the-subscription-form-asking-if-they'd-like-to-receive-marketing-communications-from-you-in-the-future%2E: >
+  Antes de enviar cualquier campaña utilizando una herramienta de marketing por
+  correo electrónico, asegúrese de tener permiso de sus suscriptores para
+  enviarles correos electrónicos. Puede hacerlo preguntándoles durante el
+  registro o incluyendo una casilla de verificación en el formulario de
+  suscripción que les pregunte si les gustaría recibir comunicaciones de
+  marketing de usted en el futuro.
+rcc-markdown:Double-opt-in: |
+  Doble opt-in
+rcc-markdown:Use-double-opt-in-when-sending-out-marketing-emails%2E-This-means-that-the-recipient-must-have-previously-agreed-to-receive-emails-from-you-before-they-can-see-content-in-their-inboxes-or-on-their-mobile-devices%2E-This-helps-prevent-people-from-signing-up-for-newsletters-they-don't-want-and-can-help-protect-against-spam-complaints-from-users-who-didn't-know-they-had-signed-up-for-something-in-the-first-place%2E: >
+  Utilice el doble opt-in al enviar correos electrónicos de marketing. Esto
+  significa que el destinatario debe haber aceptado previamente recibir correos
+  electrónicos de usted antes de poder ver el contenido en sus bandejas de
+  entrada o en sus dispositivos móviles. Esto ayuda a evitar que las personas se
+  suscriban a boletines informativos que no desean y puede ayudar a protegerse
+  contra las quejas de spam de usuarios que no sabían que se habían suscrito a
+  algo en primer lugar.
