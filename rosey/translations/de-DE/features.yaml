@@ -1,0 +1,14 @@
+_inputs:
+  $:
+    type: object
+    comment: "[features/](https://dreamy-parsnip.cloudvent.net/features/)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (de-DE)
+          comment: "[features/](https://dreamy-parsnip.cloudvent.net/features/)"
+          inputs: []
+        - heading: Already translated (de-DE)
+          comment: "[features/](https://dreamy-parsnip.cloudvent.net/features/)"
+          inputs: []
+urlTranslation: features/index.html

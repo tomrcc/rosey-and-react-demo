@@ -1,0 +1,104 @@
+_inputs:
+  $:
+    type: object
+    comment: "[about/](https://dreamy-parsnip.cloudvent.net/about/)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (de-DE)
+          comment: "[about/](https://dreamy-parsnip.cloudvent.net/about/)"
+          inputs:
+            - Active-users-and-growing
+            - Amazing-team-members
+            - Built-for-your
+            - Established-in
+            - Venture-capital-raised
+            - rcc-markdown:We've-built-Sendit-from-the-ground-up-the-help-grow-your-business-faster%2E
+        - heading: Already translated (de-DE)
+          comment: "[about/](https://dreamy-parsnip.cloudvent.net/about/)"
+          inputs: []
+  Active-users-and-growing:
+    label: Active users and growing
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See in
+      context](https://dreamy-parsnip.cloudvent.net/about/#:~:text=Active%20use\
+      rs%20and%20growing)"
+    context: {}
+  Amazing-team-members:
+    label: Amazing team members
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See in
+      context](https://dreamy-parsnip.cloudvent.net/about/#:~:text=Amazing%20te\
+      am%20members)"
+    context: {}
+  Built-for-your:
+    label: Built for your
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://dreamy-parsnip.cloudvent.net/about/#:~:text=Built%20for%\
+      20your)"
+    context: {}
+  Established-in:
+    label: Established in
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://dreamy-parsnip.cloudvent.net/about/#:~:text=Established%\
+      20in)"
+    context: {}
+  Venture-capital-raised:
+    label: Venture capital raised
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See in
+      context](https://dreamy-parsnip.cloudvent.net/about/#:~:text=Venture%20ca\
+      pital%20raised)"
+    context: {}
+  rcc-markdown:We've-built-Sendit-from-the-ground-up-the-help-grow-your-business-faster%2E:
+    label: We've built Sendit from the ground up the ...
+    hidden: false
+    type: markdown
+    options:
+      bold: true
+      italic: true
+      strike: true
+      link: true
+      subscript: true
+      superscript: true
+      underline: true
+      code: true
+      undo: true
+      redo: true
+      removeformat: true
+      copyformatting: true
+    comment: "[See in
+      context](https://dreamy-parsnip.cloudvent.net/about/#:~:text=We've%20buil\
+      t%20Sendit%20from,grow%20your%20business%20faster.)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: >
+        We've built Sendit from the ground up the help grow your business faster.
+urlTranslation: about/index.html
+Active-users-and-growing: |
+  Aktive Nutzer und wachsende Zahl
+Amazing-team-members: |
+  Erstaunliche Teammitglieder
+Built-for-your: |
+  Entwickelt für Ihre
+Established-in: |
+  Gegründet in
+Venture-capital-raised: |
+  Eingeworbenes Risikokapital
+rcc-markdown:We've-built-Sendit-from-the-ground-up-the-help-grow-your-business-faster%2E: >
+  Wir haben Sendit von Grund auf neu entwickelt, um Ihr Unternehmen schneller
+  wachsen zu lassen.
