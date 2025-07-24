@@ -7,8 +7,7 @@ _inputs:
       groups:
         - heading: Still to translate (es-ES)
           comment: Text to translate
-          inputs:
-            - common:Test
+          inputs: []
         - heading: Already translated (es-ES)
           comment: Text already translated
           inputs:
@@ -21,6 +20,7 @@ _inputs:
             - common:Marketing
             - common:Pricing
             - common:Technology
+            - common:Test
             - common:minutes
             - common:words
   common:About:
