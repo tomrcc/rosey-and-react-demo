@@ -7,7 +7,8 @@ _inputs:
       groups:
         - heading: Still to translate (es-ES)
           comment: Text to translate
-          inputs: []
+          inputs:
+            - common:Blog
         - heading: Already translated (es-ES)
           comment: Text already translated
           inputs:
@@ -20,7 +21,6 @@ _inputs:
             - common:Marketing
             - common:Pricing
             - common:Technology
-            - common:Test
             - common:minutes
             - common:words
   common:About:
@@ -32,6 +32,13 @@ _inputs:
     context: {}
   common:All-Articles:
     label: All Articles
+    hidden: false
+    type: text
+    options: {}
+    comment: ""
+    context: {}
+  common:Blog:
+    label: Blog
     hidden: false
     type: text
     options: {}
@@ -86,13 +93,6 @@ _inputs:
     options: {}
     comment: ""
     context: {}
-  common:Test:
-    label: Test
-    hidden: false
-    type: text
-    options: {}
-    comment: ""
-    context: {}
   common:minutes:
     label: minutes
     hidden: false
@@ -111,6 +111,7 @@ common:About: |
   Acerca de
 common:All-Articles: |
   Todos los artículos
+common:Blog: ""
 common:Contact: |
   Contacto
 common:Features: |
@@ -125,8 +126,6 @@ common:Pricing: |
   Precios
 common:Technology: |
   Tecnología
-common:Test: |
-  Prueba
 common:minutes: |
   acta
 common:words: |

@@ -7,14 +7,14 @@ _inputs:
       groups:
         - heading: Still to translate (de-DE)
           comment: "[index.html](https://dreamy-parsnip.cloudvent.net/index.html)"
-          inputs:
-            - Business
+          inputs: []
         - heading: Already translated (de-DE)
           comment: "[index.html](https://dreamy-parsnip.cloudvent.net/index.html)"
           inputs:
             - Active-users-and-growing
             - Amazing-team-members
             - Beautiful-email-campaigns
+            - Business
             - Established-in
             - Scale-your
             - Try-This-Free
