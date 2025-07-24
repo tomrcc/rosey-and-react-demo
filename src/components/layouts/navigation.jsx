@@ -35,9 +35,7 @@ export default function Navigation({ pageUrl }) {
   }, []);
 
   console.log('\n\n Outside of use effect')
-  console.log({localeArr})
   console.log({ pathname })
-  console.log({locale})
   console.log({allLocales})
   console.log({localeData})
 
