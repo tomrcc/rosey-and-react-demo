@@ -1,6 +1,6 @@
 paths:
   static: public
-  uploads: public/uploads
+  uploads: public/images
 data_config:
   blog-tags:
     path: data/blog-tags.json  
@@ -44,6 +44,9 @@ collections_config:
     disable_add_folder: true
     disable_url: true
     icon: data_usage
+    _inputs:
+      flag:
+        type: image
   translations:
     path: rosey
     icon: translate
