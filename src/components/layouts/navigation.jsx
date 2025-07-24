@@ -6,10 +6,11 @@ export default function Navigation({ pageUrl, astroUrl }) {
   const [isSticky, setSticky] = useState(false);
   const [isLangOpen, setLangOpen] = useState(false);
 
-  console.log({astroUrl})
-  const localeArr = astroUrl.pathname.split("/");
+  const pathname = window.location.pathname;
+  console.log({pathname})
+  const localeArr = window.location.pathname.split("/");
   console.log({localeArr})
-  const locale = astroUrl.pathname.split("/")[1];
+  const locale = window.location.pathname.split("/")[1];
   const allLocales = import.meta.glob('/rosey/locales/*.json', { eager: true });
   const localeData = allLocales[`/rosey/locales/${locale}.json`]?.default;
   console.log({locale})
@@ -210,7 +211,7 @@ export default function Navigation({ pageUrl, astroUrl }) {
               navigation.locales.map((locale) => {
                 return (
                   <li key={locale.name}>
-                    <a href={`/${locale.code}${astroUrl.pathname}`}>
+                    <a href={`/${locale.code}${window.location.pathname}`}>
                       <img
                         className="w-[32px]"
                         src={locale.flag}
