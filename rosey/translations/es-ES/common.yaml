@@ -7,6 +7,9 @@ _inputs:
       groups:
         - heading: Still to translate (es-ES)
           comment: Text to translate
+          inputs: []
+        - heading: Already translated (es-ES)
+          comment: Text already translated
           inputs:
             - common:About
             - common:All-Articles
@@ -23,9 +26,6 @@ _inputs:
             - common:Technology
             - common:minutes
             - common:words
-        - heading: Already translated (es-ES)
-          comment: Text already translated
-          inputs: []
   common:About:
     label: About
     hidden: false

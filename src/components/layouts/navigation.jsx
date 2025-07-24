@@ -47,10 +47,11 @@ export default function Navigation({ pageUrl }) {
 
   return (
     <>
-      <header data-rosey-ns="common">
+      <header>
         <nav
           className={`navbar navbar-expand-lg position-fixed w-100 zindex-dropdown${isSticky ? " sticky-nav" : ""}`}
           id="mainnavigationBar"
+          data-rosey-ns="common"
         >
           <div className="container-fluid">
             <a className="navbar-brand" href="/">
