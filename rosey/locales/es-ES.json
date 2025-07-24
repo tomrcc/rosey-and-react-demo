@@ -43,6 +43,10 @@
 		"original": "All Articles",
 		"value": "Todos los artículos\n"
 	},
+	"common:Blog": {
+		"original": "Blog",
+		"value": "Blog"
+	},
 	"common:Contact": {
 		"original": "Contact",
 		"value": "Contacto\n"
@@ -70,10 +74,6 @@
 	"common:Technology": {
 		"original": "Technology",
 		"value": "Tecnología\n"
-	},
-	"common:Test": {
-		"original": "Test",
-		"value": "Prueba\n"
 	},
 	"common:minutes": {
 		"original": "minutes",
