@@ -6,8 +6,22 @@ export default function Navigation({ pageUrl }) {
   const [isSticky, setSticky] = useState(false);
   const [isLangOpen, setLangOpen] = useState(false);
 
-  const pathname = window?.location?.pathname ?? "/";
-  console.log({pathname})
+  let pathname = "";
+  
+  const handleScroll = () => {
+    setSticky(window.scrollY >= 70);
+  };
+
+  useEffect(() => {
+    console.log({ pathname })
+    pathname = window.location.pathname;
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   const localeArr = pathname.split("/");
   console.log({localeArr})
   const locale = pathname.split("/")[1];
@@ -16,17 +30,6 @@ export default function Navigation({ pageUrl }) {
   console.log({locale})
   console.log({allLocales})
   console.log({localeData})
-
-  const handleScroll = () => {
-    setSticky(window.scrollY >= 70);
-  };
-
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
 
   const handleClick = (event) => {
     const navbar = $("#mainnavigationBar");
