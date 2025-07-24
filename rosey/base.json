@@ -113,8 +113,8 @@
       },
       "total": 15
     },
-    "common:Blog": {
-      "original": "Blog",
+    "common:Blog-Posts": {
+      "original": "Blog Posts",
       "value": null,
       "pages": {
         "404.html": 1,

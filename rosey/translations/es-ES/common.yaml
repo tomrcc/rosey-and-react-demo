@@ -10,7 +10,7 @@ _inputs:
           inputs:
             - common:About
             - common:All-Articles
-            - common:Blog
+            - common:Blog-Posts
             - common:Contact
             - common:Features
             - common:Get-Started
@@ -37,8 +37,8 @@ _inputs:
     options: {}
     comment: ""
     context: {}
-  common:Blog:
-    label: Blog
+  common:Blog-Posts:
+    label: Blog Posts
     hidden: false
     type: text
     options: {}
@@ -107,16 +107,26 @@ _inputs:
     options: {}
     comment: ""
     context: {}
-common:About: ""
-common:All-Articles: ""
-common:Blog: ""
-common:Contact: ""
-common:Features: ""
-common:Get-Started: ""
-common:Home: ""
-common:Marketing: ""
-common:Pricing: ""
-common:Technology: ""
+common:About: |
+  Acerca de
+common:All-Articles: |
+  Todos los artículos
+common:Blog-Posts: |
+  Publicaciones de blog
+common:Contact: |
+  Contacto
+common:Features: |
+  Funciones
+common:Get-Started: |
+  Comenzar
+common:Home: |
+  Hogar
+common:Marketing: |
+  Marketing
+common:Pricing: |
+  Precios
+common:Technology: |
+  Tecnología
 common:minutes: |
   acta
 common:words: |
