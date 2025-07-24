@@ -3,6 +3,7 @@ import Layout, { SEOProps } from "@layouts/Layout.astro";
 import PostSummary from "@components/posts/summary";
 import { getCollection } from "astro:content";
 import type { MarkdownLayoutProps } from "astro";
+import { generateRoseyId } from "rosey-connector/helpers/text-formatters.mjs";
 
 type Props =
   | {
@@ -43,7 +44,7 @@ const posts = await getCollection("blog");
         <div class="col-lg-12">
           <article class="blog-single">
             <div class="inner-blog-details">
-              <h2 class="w-xxl-70 w-xl-80 w-100">{title}</h2>
+              <h2 class="w-xxl-70 w-xl-80 w-100" data-rosey={generateRoseyId(title)}>{title}</h2>
               <div class="inner-blog-details-meta">
                 <ul class="list-unstyled" data-rosey-ns="common">
                   <li class="list-inline-item">
