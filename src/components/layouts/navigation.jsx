@@ -2,15 +2,15 @@ import { useEffect, useState } from "react";
 import navigation from "@data/navigation.json";
 import { generateRoseyId } from "rosey-connector/helpers/text-formatters.mjs"
 
-export default function Navigation({ pageUrl, astroUrl }) {
+export default function Navigation({ pageUrl }) {
   const [isSticky, setSticky] = useState(false);
   const [isLangOpen, setLangOpen] = useState(false);
 
-  const pathname = window.location.pathname;
+  const pathname = window?.location?.pathname ?? "/";
   console.log({pathname})
-  const localeArr = window.location.pathname.split("/");
+  const localeArr = pathname.split("/");
   console.log({localeArr})
-  const locale = window.location.pathname.split("/")[1];
+  const locale = pathname.split("/")[1];
   const allLocales = import.meta.glob('/rosey/locales/*.json', { eager: true });
   const localeData = allLocales[`/rosey/locales/${locale}.json`]?.default;
   console.log({locale})
@@ -211,7 +211,7 @@ export default function Navigation({ pageUrl, astroUrl }) {
               navigation.locales.map((locale) => {
                 return (
                   <li key={locale.name}>
-                    <a href={`/${locale.code}${window.location.pathname}`}>
+                    <a href={`/${locale.code}${pathname}`}>
                       <img
                         className="w-[32px]"
                         src={locale.flag}
