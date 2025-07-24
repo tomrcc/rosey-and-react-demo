@@ -136,92 +136,93 @@ export default function Navigation({ pageUrl, pagePathname }) {
                 </svg>
               </span>
             </button> 
-          <div
-            className="collapse navbar-collapse"
-            id="navbarSupportedContent"
-          >
-            <ul className="navbar-nav mx-auto mb-20 mb-lg-0">
-              {navigation.items.map((item, i) => (
-                <li key={i} className={`nav-item ${item.enable_dropdown && item.dropdown ? 'dropdown' : ''}`}>
-                  {item.enable_dropdown && item.dropdown ? (
-                    <>
+            <div
+              className="collapse navbar-collapse"
+              id="navbarSupportedContent"
+            >
+              <ul className="navbar-nav mx-auto mb-20 mb-lg-0">
+                {navigation.items.map((item, i) => (
+                  <li key={i} className={`nav-item ${item.enable_dropdown && item.dropdown ? 'dropdown' : ''}`}>
+                    {item.enable_dropdown && item.dropdown ? (
+                      <>
+                        <a
+                          href={`${item.link}`}
+                          className={`nav-link dropdown-link ${pageUrl?.pathname === item.link ? "active" : ""}`}
+                          onClick={handleDropdownClick}
+                          data-rosey={generateRoseyId(item.text)}
+                        >
+                          {!localeData ? item.text : localeData[`common:${generateRoseyId(item.text)}`].value}
+                        </a>
+                        <ul className="dropdown-menu">
+                          {item.dropdown.map((dropdown_item, j) => (
+                            <li key={j}>
+                              <a
+                                className="dropdown-item"
+                                href={dropdown_item.dropdown_link}
+                                data-rosey={generateRoseyId(dropdown_item.dropdown_text)}>
+                                {!localeData ? dropdown_item.dropdown_text : localeData[`common:${generateRoseyId(dropdown_item.dropdown_text)}`].value}
+                              </a>
+                            </li>
+                          ))}
+                        </ul>
+                      </>
+                    ) : (
                       <a
                         href={`${item.link}`}
-                        className={`nav-link dropdown-link ${pageUrl?.pathname === item.link ? "active" : ""}`}
-                        onClick={handleDropdownClick}
+                        className={`nav-link ${pageUrl?.pathname === item.link ? "active" : ""}`}
                         data-rosey={generateRoseyId(item.text)}
                       >
                         {!localeData ? item.text : localeData[`common:${generateRoseyId(item.text)}`].value}
                       </a>
-                      <ul className="dropdown-menu">
-                        {item.dropdown.map((dropdown_item, j) => (
-                          <li key={j}>
-                            <a
-                              className="dropdown-item"
-                              href={dropdown_item.dropdown_link}
-                              data-rosey={generateRoseyId(dropdown_item.dropdown_text)}>
-                              {!localeData ? dropdown_item.dropdown_text : localeData[`common:${generateRoseyId(dropdown_item.dropdown_text)}`].value}
+                    )}
+                  </li>
+                ))}
+                <li className="language-picker">
+                  <button onClick={() => {
+                      setLangOpen(!isLangOpen)
+                    }}>
+                    Lang
+                  </button>
+                  <ul className="lang-list" style={isLangOpen ? {display: "flex"} : {display: "none"}}>
+                    {
+                      navigation.locales.map((locale) => {
+                        return (
+                          <li key={locale.name}>
+                            <a href={`/${locale.code}${pagePathname}`}> 
+                              <img
+                                className="w-[32px]"
+                                src={locale.flag}
+                                alt={`${locale.name} Flag`}
+                              />
+                              <span>
+                                {locale.name}
+                              </span>
                             </a>
                           </li>
-                        ))}
-                      </ul>
-                    </>
-                  ) : (
-                    <a
-                      href={`${item.link}`}
-                      className={`nav-link ${pageUrl?.pathname === item.link ? "active" : ""}`}
-                      data-rosey={generateRoseyId(item.text)}
-                    >
-                      {!localeData ? item.text : localeData[`common:${generateRoseyId(item.text)}`].value}
-                    </a>
-                  )}
+                        );
+                      })
+                    }
+                  </ul>
                 </li>
-              ))}
-            </ul>
-          </div>
-          { navigation.enable_nav_btn ? (
-            <>
-            <div className="d-none d-lg-block">
-              <div className="nav-item">
-                <a
-                  href={`${navigation.nav_btn?.link}`}
-                  className="btn btn-sm btn-links"
-                  data-rosey={generateRoseyId(navigation.nav_btn?.text)}
-                >
-                  {!localeData ? navigation.nav_btn?.text : localeData[`common:${generateRoseyId(navigation.nav_btn?.text)}`].value}
-                </a>
-              </div>
+              </ul>
             </div>
-            </>
-          ) : null }
+            { navigation.enable_nav_btn ? (
+              <>
+              <div className="d-none d-lg-block">
+                <div className="nav-item">
+                  <a
+                    href={`${navigation.nav_btn?.link}`}
+                    className="btn btn-sm btn-links"
+                    data-rosey={generateRoseyId(navigation.nav_btn?.text)}
+                  >
+                    {!localeData ? navigation.nav_btn?.text : localeData[`common:${generateRoseyId(navigation.nav_btn?.text)}`].value}
+                  </a>
+                </div>
+              </div>
+              </>
+            ) : null}
+            
           </div>
-          <div className="language-picker">
-            <button onClick={() => {
-              setLangOpen(!isLangOpen)
-            }}>
-            Lang
-          </button>
-            <ul className="lang-list" style={isLangOpen ? {display: "flex"} : {display: "none"}}>
-            {
-              navigation.locales.map((locale) => {
-                return (
-                  <li key={locale.name}>
-                    <a href={`/${locale.code}/${pagePathname}`}> 
-                      <img
-                        className="w-[32px]"
-                        src={locale.flag}
-                        alt={`${locale.name} Flag`}
-                      />
-                      <span>
-                        {locale.name}
-                      </span>
-                    </a>
-                  </li>
-                );
-              })
-            }
-          </ul>
-        </div>
         </nav>
       </header>
     </>
