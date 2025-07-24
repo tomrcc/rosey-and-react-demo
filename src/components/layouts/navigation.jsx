@@ -5,8 +5,7 @@ import { generateRoseyId } from "rosey-connector/helpers/text-formatters.mjs"
 export default function Navigation({ pageUrl }) {
   const [isSticky, setSticky] = useState(false);
   const [isLangOpen, setLangOpen] = useState(false);
-  const [localeData, setLocaleData] = useState(false)
-  // const [pathName, setPathName] = useState("")
+  const [localeData, setLocaleData] = useState(false);
   const allLocales = import.meta.glob('/rosey/locales/*.json', { eager: true });
   
   const handleScroll = () => {
@@ -15,24 +14,14 @@ export default function Navigation({ pageUrl }) {
 
   useEffect(() => {
     const pathname = window.location.pathname;
-    const localeArr = pathname.split("/");
     const locale = pathname.split("/")[1];
     setLocaleData(allLocales[`/rosey/locales/${locale}.json`]?.default);
-
-    console.log('\n\n Inside use effect')
-    console.log({localeArr})
-    console.log({ pathname })
-    console.log({locale})
-    console.log({allLocales})
-    console.log({localeData})
 
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
-  console.log({localeData})
 
   const handleClick = (event) => {
     const navbar = $("#mainnavigationBar");
@@ -217,8 +206,7 @@ export default function Navigation({ pageUrl }) {
               navigation.locales.map((locale) => {
                 return (
                   <li key={locale.name}>
-                    {/* TODO: Readd pathname here */}
-                    <a href={`/${locale.code}`}> 
+                    <a href={`/${locale.code}/${pageUrl}`}> 
                       <img
                         className="w-[32px]"
                         src={locale.flag}
