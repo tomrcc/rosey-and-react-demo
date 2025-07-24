@@ -6,7 +6,8 @@ export default function Navigation({ pageUrl }) {
   const [isSticky, setSticky] = useState(false);
   const [isLangOpen, setLangOpen] = useState(false);
 
-  const pathname = pageUrl.pathname
+  const pathname = pageUrl.pathname;
+  const locale = pathname.split("/")[1];
 
   const handleScroll = () => {
     setSticky(window.scrollY >= 70);
@@ -51,7 +52,6 @@ export default function Navigation({ pageUrl }) {
         <nav
           className={`navbar navbar-expand-lg position-fixed w-100 zindex-dropdown${isSticky ? " sticky-nav" : ""}`}
           id="mainnavigationBar"
-          data-rosey-ns="common"
         >
           <div className="container-fluid">
             <a className="navbar-brand" href="/">
@@ -145,18 +145,16 @@ export default function Navigation({ pageUrl }) {
                         href={`${item.link}`}
                         className={`nav-link dropdown-link ${pageUrl?.pathname === item.link ? "active" : ""}`}
                         onClick={handleDropdownClick}
-                        data-rosey={generateRoseyId(item.text)}
                       >
-                        {item.text}
+                        {locale === "en" ? item.text : item.translations[locale]}
                       </a>
                       <ul className="dropdown-menu">
                         {item.dropdown.map((dropdown_item, j) => (
                           <li key={j}>
                             <a
                               className="dropdown-item"
-                              href={dropdown_item.dropdown_link}
-                              data-rosey={generateRoseyId(dropdown_item.dropdown_text)}>
-                              {dropdown_item.dropdown_text}
+                              href={dropdown_item.dropdown_link}>
+                              {locale === "en" ? dropdown_item.dropdown_text : dropdown_item.translations[locale]}
                             </a>
                           </li>
                         ))}
@@ -166,9 +164,8 @@ export default function Navigation({ pageUrl }) {
                     <a
                       href={`${item.link}`}
                       className={`nav-link ${pageUrl?.pathname === item.link ? "active" : ""}`}
-                      data-rosey={generateRoseyId(item.text)}
                     >
-                      {item.text}
+                      {locale === "en" ? item.text : item.translations[locale]}
                     </a>
                   )}
                 </li>
@@ -182,9 +179,8 @@ export default function Navigation({ pageUrl }) {
                 <a
                   href={`${navigation.nav_btn?.link}`}
                   className="btn btn-sm btn-links"
-                  data-rosey={generateRoseyId(navigation.nav_btn?.text)}
                 >
-                  {navigation.nav_btn?.text}
+                  {locale === "en" ? navigation.nav_btn?.text : navigation.nav_btn?.translations[locale]}
                 </a>
               </div>
             </div>
@@ -208,7 +204,7 @@ export default function Navigation({ pageUrl }) {
                         src={locale.flag}
                         alt={`${locale.name} Flag`}
                       />
-                      <span data-rosey={generateRoseyId(locale.name)}>
+                      <span>
                         {locale.name}
                       </span>
                     </a>

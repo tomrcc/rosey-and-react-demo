@@ -20,49 +20,76 @@
   "items": [
     {
       "text": "Home",
+      "translations": {
+        "es-ES": "Hogar"
+      },
       "link": "/",
       "enable_dropdown": false,
       "dropdown": []
     },
     {
       "text": "Features",
+      "translations": {
+        "es-ES": "Funciones"
+      },
       "link": "/features/",
       "enable_dropdown": false,
       "dropdown": []
     },
     {
       "text": "Pricing",
+      "translations": {
+        "es-ES": "Precios"
+      },
       "link": "/pricing/",
       "enable_dropdown": false,
       "dropdown": []
     },
     {
       "text": "About",
+      "translations": {
+        "es-ES": "Acerca de"
+      },
       "link": "/about/",
       "enable_dropdown": false,
       "dropdown": []
     },
     {
       "text": "Blog",
+      "translations": {
+        "es-ES": "Blog"
+      },
       "link": "/blog/",
       "enable_dropdown": true,
       "dropdown": [
         {
           "dropdown_text": "All Articles",
+          "translations": {
+            "es-ES": "Todos los artículos"
+          },
           "dropdown_link": "/blog"
         },
         {
           "dropdown_text": "Marketing",
+          "translations": {
+            "es-ES": "Marketing"
+          },
           "dropdown_link": "/tags/marketing/"
         },
         {
           "dropdown_text": "Technology",
+          "translations": {
+            "es-ES": "Tecnología"
+          },
           "dropdown_link": "/tags/technology/"
         }
       ]
     },
     {
       "text": "Contact",
+      "translations": {
+        "es-ES": "Contacto"
+      },
       "link": "/contact/",
       "enable_dropdown": false,
       "dropdown": []
@@ -71,6 +98,9 @@
   "enable_nav_btn": true,
   "nav_btn": {
     "text": "Get Started",
+    "translations": {
+      "es-ES": "Comenzar"
+    },
     "link": "/signup/"
   }
 }
