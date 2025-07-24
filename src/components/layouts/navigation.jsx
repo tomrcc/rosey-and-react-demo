@@ -2,30 +2,34 @@ import { useEffect, useState } from "react";
 import navigation from "@data/navigation.json";
 import { generateRoseyId } from "rosey-connector/helpers/text-formatters.mjs"
 
-export default function Navigation({ pageUrl, astroUrl }) {
+export default function Navigation({ pageUrl }) {
   const [isSticky, setSticky] = useState(false);
   const [isLangOpen, setLangOpen] = useState(false);
 
-  console.log({astroUrl})
-  const localeArr = astroUrl.pathname.split("/");
-  console.log({localeArr})
-  const locale = astroUrl.pathname.split("/")[1];
-  const allLocales = import.meta.glob('/rosey/locales/*.json', { eager: true });
-  const localeData = allLocales[`/rosey/locales/${locale}.json`]?.default;
-  console.log({locale})
-  console.log({allLocales})
-  console.log({localeData})
-
+  let pathname = "";
+  
   const handleScroll = () => {
     setSticky(window.scrollY >= 70);
   };
 
   useEffect(() => {
+    console.log({ pathname })
+    pathname = window.location.pathname;
+
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  const localeArr = pathname.split("/");
+  console.log({localeArr})
+  const locale = pathname.split("/")[1];
+  const allLocales = import.meta.glob('/rosey/locales/*.json', { eager: true });
+  const localeData = allLocales[`/rosey/locales/${locale}.json`]?.default;
+  console.log({locale})
+  console.log({allLocales})
+  console.log({localeData})
 
   const handleClick = (event) => {
     const navbar = $("#mainnavigationBar");
@@ -210,7 +214,7 @@ export default function Navigation({ pageUrl, astroUrl }) {
               navigation.locales.map((locale) => {
                 return (
                   <li key={locale.name}>
-                    <a href={`/${locale.code}${astroUrl.pathname}`}>
+                    <a href={`/${locale.code}${pathname}`}>
                       <img
                         className="w-[32px]"
                         src={locale.flag}
