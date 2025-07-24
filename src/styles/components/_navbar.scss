@@ -86,6 +86,7 @@
   .nav-link {
     padding-right: $base-padding !important;
     padding-left: $base-padding !important;
+    min-width: max-content;
     display: flex;
     align-items: center;
     font-weight: $regular-font-weight;

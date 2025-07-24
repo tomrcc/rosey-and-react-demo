@@ -23,6 +23,8 @@ collections_config:
   pages:
     path: src/content/pages
     url: "/[slug]/"
+    glob:
+      - '**/*.md'
     icon: wysiwyg
     disable_add_folder: true
     _enabled_editors:
