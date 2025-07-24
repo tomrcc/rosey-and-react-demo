@@ -210,7 +210,7 @@ export default function Navigation({ pageUrl, astroUrl }) {
               navigation.locales.map((locale) => {
                 return (
                   <li key={locale.name}>
-                    <a href={`/${locale.code}${pagePathname}`}>
+                    <a href={`/${locale.code}${astroUrl.pathname}`}>
                       <img
                         className="w-[32px]"
                         src={locale.flag}
