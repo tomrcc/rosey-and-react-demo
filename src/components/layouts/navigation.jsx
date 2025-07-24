@@ -5,7 +5,7 @@ import { generateRoseyId } from "rosey-connector/helpers/text-formatters.mjs"
 export default function Navigation({ pageUrl }) {
   const [isSticky, setSticky] = useState(false);
   const [isLangOpen, setLangOpen] = useState(false);
-  const [localeData, setLocaleData] = useState({})
+  const [localeData, setLocaleData] = useState(false)
   // const [pathName, setPathName] = useState("")
   const allLocales = import.meta.glob('/rosey/locales/*.json', { eager: true });
   
