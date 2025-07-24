@@ -2,13 +2,12 @@ import { useEffect, useState } from "react";
 import navigation from "@data/navigation.json";
 import { generateRoseyId } from "rosey-connector/helpers/text-formatters.mjs"
 
-export default function Navigation({ pageUrl }) {
+export default function Navigation({ pageUrl, pagePathname }) {
   const [isSticky, setSticky] = useState(false);
   const [isLangOpen, setLangOpen] = useState(false);
 
-  const pathname = pageUrl.pathname;
-  console.log({pageUrl});
-  const localeArr = pathname.split("/");
+  const localeArr = pagePathname.split("/");
+  console.log({pagePathname})
   console.log({localeArr})
   const locale = pathname.split("/")[1];
   const allLocales = import.meta.glob('/rosey/locales/*.json', { eager: true });
