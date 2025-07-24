@@ -1,0 +1,14 @@
+_inputs:
+  $:
+    type: object
+    comment: "[privacy/](https://dreamy-parsnip.cloudvent.net/privacy/)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (de-DE)
+          comment: "[privacy/](https://dreamy-parsnip.cloudvent.net/privacy/)"
+          inputs: []
+        - heading: Already translated (de-DE)
+          comment: "[privacy/](https://dreamy-parsnip.cloudvent.net/privacy/)"
+          inputs: []
+urlTranslation: privacy/index.html

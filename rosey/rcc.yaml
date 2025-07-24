@@ -1,5 +1,6 @@
 locales:
   - es-ES
+  - de-DE
 input_lengths:
   label: 42
   textarea: 20
@@ -23,8 +24,8 @@ smartling:
   enabled: true
   dev_project_id: 403ba8439
   dev_user_identifier: widgoyosxtbfsfonzlcfejabgndxst
-  ping_interval: 20000
-  ping_maximum: 6
+  ping_interval: 10000
+  ping_maximum: 20
   pings_to_wait_for_auth: 3
   incoming_translations_dir: ./rosey/smartling-translations/
   outgoing_translations_file_path: ./rosey/outgoing-smartling-translations.json

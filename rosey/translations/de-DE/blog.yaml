@@ -1,0 +1,14 @@
+_inputs:
+  $:
+    type: object
+    comment: "[blog/](https://dreamy-parsnip.cloudvent.net/blog/)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (de-DE)
+          comment: "[blog/](https://dreamy-parsnip.cloudvent.net/blog/)"
+          inputs: []
+        - heading: Already translated (de-DE)
+          comment: "[blog/](https://dreamy-parsnip.cloudvent.net/blog/)"
+          inputs: []
+urlTranslation: blog/index.html

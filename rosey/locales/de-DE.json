@@ -1,0 +1,110 @@
+{
+	"Active-users-and-growing": {
+		"original": "Active users and growing",
+		"value": "Aktive Nutzer und wachsende Zahl\n"
+	},
+	"Amazing-team-members": {
+		"original": "Amazing team members",
+		"value": "Erstaunliche Teammitglieder\n"
+	},
+	"Beautiful-email-campaigns": {
+		"original": "Beautiful email campaigns",
+		"value": "Schöne E-Mail-Kampagnen\n"
+	},
+	"Built-for-your": {
+		"original": "Built for your",
+		"value": "Entwickelt für Ihre\n"
+	},
+	"Established-in": {
+		"original": "Established in",
+		"value": "Gegründet in\n"
+	},
+	"Scale-your": {
+		"original": "Scale your",
+		"value": "Skalieren Sie Ihre\n"
+	},
+	"Try-This-Free": {
+		"original": "Try This Free",
+		"value": "Probieren Sie es kostenlos aus\n"
+	},
+	"Venture-capital-raised": {
+		"original": "Venture capital raised",
+		"value": "Eingeworbenes Risikokapital\n"
+	},
+	"common:About": {
+		"original": "About",
+		"value": "Über\n"
+	},
+	"common:All-Articles": {
+		"original": "All Articles",
+		"value": "Alle Artikel\n"
+	},
+	"common:Contact": {
+		"original": "Contact",
+		"value": "Kontakt\n"
+	},
+	"common:Features": {
+		"original": "Features",
+		"value": "Funktionen\n"
+	},
+	"common:Get-Started": {
+		"original": "Get Started",
+		"value": "Loslegen\n"
+	},
+	"common:Home": {
+		"original": "Home",
+		"value": "Heim\n"
+	},
+	"common:Marketing": {
+		"original": "Marketing",
+		"value": "Marketing\n"
+	},
+	"common:Pricing": {
+		"original": "Pricing",
+		"value": "Auszeichnung\n"
+	},
+	"common:Technology": {
+		"original": "Technology",
+		"value": "Technologie\n"
+	},
+	"common:Test": {
+		"original": "Test",
+		"value": "Test\n"
+	},
+	"common:minutes": {
+		"original": "minutes",
+		"value": "Protokoll\n"
+	},
+	"common:words": {
+		"original": "words",
+		"value": "Wörter\n"
+	},
+	"rcc-markdown:Before-you-send-out-any-campaign-using-an-email-marketing-tool-make-sure-that-you-have-permission-from-your-subscribers-to-send-them-emails%2E-You-can-do-this-by-asking-them-during-signup-or-including-a-checkbox-in-the-subscription-form-asking-if-they'd-like-to-receive-marketing-communications-from-you-in-the-future%2E": {
+		"original": "Before you send out any campaign using an email marketing tool, make sure that you have permission from your subscribers to send them emails. You can do this by asking them during signup or including a checkbox in the subscription form asking if they’d like to receive marketing communications from you in the future.",
+		"value": "Bevor Sie eine Kampagne mit einem E-Mail-Marketing-Tool versenden, stellen Sie sicher, dass Sie die Erlaubnis Ihrer Abonnenten haben, ihnen E-Mails zu senden. Sie können dies tun, indem Sie sie bei der Anmeldung fragen oder ein Kontrollkästchen in das Anmeldeformular einfügen, in dem Sie gefragt werden, ob sie in Zukunft Marketingmitteilungen von Ihnen erhalten möchten.\n"
+	},
+	"rcc-markdown:Double-opt-in": {
+		"original": "Double opt-in",
+		"value": "Doppelte Anmeldung\n"
+	},
+	"rcc-markdown:Use-double-opt-in-when-sending-out-marketing-emails%2E-This-means-that-the-recipient-must-have-previously-agreed-to-receive-emails-from-you-before-they-can-see-content-in-their-inboxes-or-on-their-mobile-devices%2E-This-helps-prevent-people-from-signing-up-for-newsletters-they-don't-want-and-can-help-protect-against-spam-complaints-from-users-who-didn't-know-they-had-signed-up-for-something-in-the-first-place%2E": {
+		"original": "Use double opt-in when sending out marketing emails. This means that the recipient must have previously agreed to receive emails from you before they can see content in their inboxes or on their mobile devices. This helps prevent people from signing up for newsletters they don’t want and can help protect against spam complaints from users who didn’t know they had signed up for something in the first place.",
+		"value": "Verwenden Sie Double-Opt-In beim Versenden von Marketing-E-Mails. Das bedeutet, dass der Empfänger zuvor zugestimmt haben muss, E-Mails von Ihnen zu erhalten, bevor er Inhalte in seinem Posteingang oder auf seinen Mobilgeräten sehen kann. Dies verhindert, dass sich Personen für Newsletter anmelden, die sie nicht möchten, und kann vor Spam-Beschwerden von Benutzern schützen, die nicht wussten, dass sie sich überhaupt für etwas angemeldet haben.\n"
+	},
+	"rcc-markdown:We've-built-Sendit-from-the-ground-up-the-help-grow-your-business-faster%2E": {
+		"original": "We've built Sendit from the ground up the help grow your business faster.",
+		"value": "Wir haben Sendit von Grund auf neu entwickelt, um Ihr Unternehmen schneller wachsen zu lassen.\n"
+	},
+	"rcc-markdown:We-have-an-extensive-library-of-pre-written-sales-emails-proven-marketing-templates-and-more-to-get-you-started-on-your-next-project%2E": {
+		"original": "We have an extensive library of pre-written sales emails, proven marketing templates, and more to get you started on your next project.",
+		"value": "Wir verfügen über eine umfangreiche Bibliothek mit vorgefertigten Verkaufs-E-Mails, bewährten Marketingvorlagen und mehr, um Ihnen den Einstieg in Ihr nächstes Projekt zu erleichtern.\n"
+	},
+	"rcc-markdown:When-you-send-an-email-campaign-you-expect-it-to-reach-your-readers-right-But-what-if-the-emails-go-straight-to-your-subscribers'-spam-folders-instead-of-their-inboxes-To-make-sure-your-emails-reach-their-recipients-successfully-follow-these-email-delivery-tips%2E": {
+		"original": "When you send an email campaign, you expect it to reach your readers, right? But what if the emails go straight to your subscribers’ spam folders instead of their inboxes? To make sure your emails reach their recipients successfully, follow these email delivery tips.",
+		"value": "Wenn Sie eine E-Mail-Kampagne versenden, erwarten Sie, dass sie Ihre Leser erreicht, oder? Aber was ist, wenn die E-Mails direkt in den Spam-Ordnern Ihrer Abonnenten landen, anstatt in ihren Posteingängen? Um sicherzustellen, dass Ihre E-Mails ihre Empfänger erfolgreich erreichen, befolgen Sie diese Tipps zur E-Mail-Zustellung.\n"
+	},
+	"rcc-markdown:With-Sendit-you-can-quickly-create-beautiful-rich-emails-that-capture-a-reader's-attention-engage-them-and-convert-them-into-customers%2E": {
+		"original": "With Sendit, you can quickly create beautiful rich emails that capture a reader's attention, engage them, and convert them into customers.",
+		"value": "Mit Sendit können Sie schnell ansprechende, reichhaltige E-Mails erstellen, die die Aufmerksamkeit der Leser auf sich ziehen, sie ansprechen und sie in Kunden verwandeln.\n"
+	}
+}

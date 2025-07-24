@@ -1,0 +1,14 @@
+_inputs:
+  $:
+    type: object
+    comment: "[pricing/](https://dreamy-parsnip.cloudvent.net/pricing/)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (de-DE)
+          comment: "[pricing/](https://dreamy-parsnip.cloudvent.net/pricing/)"
+          inputs: []
+        - heading: Already translated (de-DE)
+          comment: "[pricing/](https://dreamy-parsnip.cloudvent.net/pricing/)"
+          inputs: []
+urlTranslation: pricing/index.html

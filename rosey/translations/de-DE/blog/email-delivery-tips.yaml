@@ -1,0 +1,117 @@
+_inputs:
+  $:
+    type: object
+    comment: "[blog/email-delivery-tips/](https://dreamy-parsnip.cloudvent.net/blog\
+      /email-delivery-tips/)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (de-DE)
+          comment: "[blog/email-delivery-tips/](https://dreamy-parsnip.cloudvent.net/blog\
+            /email-delivery-tips/)"
+          inputs:
+            - rcc-markdown:Before-you-send-out-any-campaign-using-an-email-marketing-tool-make-sure-that-you-have-permission-from-your-subscribers-to-send-them-emails%2E-You-can-do-this-by-asking-them-during-signup-or-including-a-checkbox-in-the-subscription-form-asking-if-they'd-like-to-receive-marketing-communications-from-you-in-the-future%2E
+            - rcc-markdown:Double-opt-in
+            - rcc-markdown:Use-double-opt-in-when-sending-out-marketing-emails%2E-This-means-that-the-recipient-must-have-previously-agreed-to-receive-emails-from-you-before-they-can-see-content-in-their-inboxes-or-on-their-mobile-devices%2E-This-helps-prevent-people-from-signing-up-for-newsletters-they-don't-want-and-can-help-protect-against-spam-complaints-from-users-who-didn't-know-they-had-signed-up-for-something-in-the-first-place%2E
+        - heading: Already translated (de-DE)
+          comment: "[blog/email-delivery-tips/](https://dreamy-parsnip.cloudvent.net/blog\
+            /email-delivery-tips/)"
+          inputs: []
+  rcc-markdown:Before-you-send-out-any-campaign-using-an-email-marketing-tool-make-sure-that-you-have-permission-from-your-subscribers-to-send-them-emails%2E-You-can-do-this-by-asking-them-during-signup-or-including-a-checkbox-in-the-subscription-form-asking-if-they'd-like-to-receive-marketing-communications-from-you-in-the-future%2E:
+    label: Before you send out any campaign using an ...
+    hidden: false
+    type: markdown
+    options:
+      bold: true
+      italic: true
+      strike: true
+      link: true
+      subscript: true
+      superscript: true
+      underline: true
+      code: true
+      undo: true
+      redo: true
+      removeformat: true
+      copyformatting: true
+    comment: "[See in
+      context](https://dreamy-parsnip.cloudvent.net/blog/email-delivery-tips/#:\
+      ~:text=Before%20you%20send%20out,you%20in%20the%20future.)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: >
+        Before you send out any campaign using an email marketing tool, make
+        sure that you have permission from your subscribers to send them emails.
+        You can do this by asking them during signup or including a checkbox in
+        the subscription form asking if they’d like to receive marketing
+        communications from you in the future.
+  rcc-markdown:Double-opt-in:
+    label: Double opt-in
+    hidden: false
+    type: markdown
+    options:
+      bold: true
+      italic: true
+      strike: true
+      link: true
+      subscript: true
+      superscript: true
+      underline: true
+      code: true
+      undo: true
+      redo: true
+      removeformat: true
+      copyformatting: true
+    comment: "[See in
+      context](https://dreamy-parsnip.cloudvent.net/blog/email-delivery-tips/#:\
+      ~:text=Double%20opt%2Din)"
+    context: {}
+  rcc-markdown:Use-double-opt-in-when-sending-out-marketing-emails%2E-This-means-that-the-recipient-must-have-previously-agreed-to-receive-emails-from-you-before-they-can-see-content-in-their-inboxes-or-on-their-mobile-devices%2E-This-helps-prevent-people-from-signing-up-for-newsletters-they-don't-want-and-can-help-protect-against-spam-complaints-from-users-who-didn't-know-they-had-signed-up-for-something-in-the-first-place%2E:
+    label: Use double opt-in when sending out marketi...
+    hidden: false
+    type: markdown
+    options:
+      bold: true
+      italic: true
+      strike: true
+      link: true
+      subscript: true
+      superscript: true
+      underline: true
+      code: true
+      undo: true
+      redo: true
+      removeformat: true
+      copyformatting: true
+    comment: "[See in
+      context](https://dreamy-parsnip.cloudvent.net/blog/email-delivery-tips/#:\
+      ~:text=Use%20double%20opt%2Din%20when,in%20the%20first%20place.)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: >
+        Use double opt-in when sending out marketing emails. This means that the
+        recipient must have previously agreed to receive emails from you before
+        they can see content in their inboxes or on their mobile devices. This
+        helps prevent people from signing up for newsletters they don’t want and
+        can help protect against spam complaints from users who didn’t know they
+        had signed up for something in the first place.
+urlTranslation: blog/email-delivery-tips/index.html
+rcc-markdown:Before-you-send-out-any-campaign-using-an-email-marketing-tool-make-sure-that-you-have-permission-from-your-subscribers-to-send-them-emails%2E-You-can-do-this-by-asking-them-during-signup-or-including-a-checkbox-in-the-subscription-form-asking-if-they'd-like-to-receive-marketing-communications-from-you-in-the-future%2E: >
+  Bevor Sie eine Kampagne mit einem E-Mail-Marketing-Tool versenden, stellen Sie
+  sicher, dass Sie die Erlaubnis Ihrer Abonnenten haben, ihnen E-Mails zu
+  senden. Sie können dies tun, indem Sie sie bei der Anmeldung fragen oder ein
+  Kontrollkästchen in das Anmeldeformular einfügen, in dem Sie gefragt werden,
+  ob sie in Zukunft Marketingmitteilungen von Ihnen erhalten möchten.
+rcc-markdown:Double-opt-in: |
+  Doppelte Anmeldung
+rcc-markdown:Use-double-opt-in-when-sending-out-marketing-emails%2E-This-means-that-the-recipient-must-have-previously-agreed-to-receive-emails-from-you-before-they-can-see-content-in-their-inboxes-or-on-their-mobile-devices%2E-This-helps-prevent-people-from-signing-up-for-newsletters-they-don't-want-and-can-help-protect-against-spam-complaints-from-users-who-didn't-know-they-had-signed-up-for-something-in-the-first-place%2E: >
+  Verwenden Sie Double-Opt-In beim Versenden von Marketing-E-Mails. Das
+  bedeutet, dass der Empfänger zuvor zugestimmt haben muss, E-Mails von Ihnen zu
+  erhalten, bevor er Inhalte in seinem Posteingang oder auf seinen Mobilgeräten
+  sehen kann. Dies verhindert, dass sich Personen für Newsletter anmelden, die
+  sie nicht möchten, und kann vor Spam-Beschwerden von Benutzern schützen, die
+  nicht wussten, dass sie sich überhaupt für etwas angemeldet haben.
