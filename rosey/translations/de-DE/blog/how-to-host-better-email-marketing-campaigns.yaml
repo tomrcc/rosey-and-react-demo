@@ -16,7 +16,23 @@ _inputs:
             arsnip.cloudvent.net/blog/how-to-host-better-email-marketing-campai\
             gns/)"
           inputs:
+            - How-to-host-better-email-marketing-campaigns
             - rcc-markdown:When-you-send-an-email-campaign-you-expect-it-to-reach-your-readers-right-But-what-if-the-emails-go-straight-to-your-subscribers'-spam-folders-instead-of-their-inboxes-To-make-sure-your-emails-reach-their-recipients-successfully-follow-these-email-delivery-tips%2E
+  How-to-host-better-email-marketing-campaigns:
+    label: How to host better email marketing campaig...
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See in
+      context](https://dreamy-parsnip.cloudvent.net/blog/how-to-host-better-ema\
+      il-marketing-campaigns/#:~:text=How%20to%20host%20better%20email%20market\
+      ing%20campaigns%3F)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: |
+        How to host better email marketing campaigns?
   rcc-markdown:When-you-send-an-email-campaign-you-expect-it-to-reach-your-readers-right-But-what-if-the-emails-go-straight-to-your-subscribers'-spam-folders-instead-of-their-inboxes-To-make-sure-your-emails-reach-their-recipients-successfully-follow-these-email-delivery-tips%2E:
     label: When you send an email campaign, you expec...
     hidden: false
@@ -48,6 +64,8 @@ _inputs:
         folders instead of their inboxes? To make sure your emails reach their
         recipients successfully, follow these email delivery tips.
 urlTranslation: blog/how-to-host-better-email-marketing-campaigns/index.html
+How-to-host-better-email-marketing-campaigns: |
+  Wie hostet man bessere E-Mail-Marketingkampagnen?
 rcc-markdown:When-you-send-an-email-campaign-you-expect-it-to-reach-your-readers-right-But-what-if-the-emails-go-straight-to-your-subscribers'-spam-folders-instead-of-their-inboxes-To-make-sure-your-emails-reach-their-recipients-successfully-follow-these-email-delivery-tips%2E: >
   Wenn Sie eine E-Mail-Kampagne versenden, erwarten Sie, dass sie Ihre Leser
   erreicht, oder? Aber was ist, wenn die E-Mails direkt in den Spam-Ordnern
