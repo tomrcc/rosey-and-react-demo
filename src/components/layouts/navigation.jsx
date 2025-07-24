@@ -9,6 +9,10 @@ export default function Navigation({ pageUrl }) {
   const pathname = pageUrl.pathname;
   const locale = pathname.split("/")[1];
 
+  const allLocales = import.meta.glob('/rosey/locales/*.json', { eager: true });
+  const localeData = allLocales[`/rosey/locales/${locale}.json`]?.default;
+  console.log({localeData})
+
   const handleScroll = () => {
     setSticky(window.scrollY >= 70);
   };
@@ -52,6 +56,7 @@ export default function Navigation({ pageUrl }) {
         <nav
           className={`navbar navbar-expand-lg position-fixed w-100 zindex-dropdown${isSticky ? " sticky-nav" : ""}`}
           id="mainnavigationBar"
+          data-rosey-ns="common"
         >
           <div className="container-fluid">
             <a className="navbar-brand" href="/">
@@ -145,16 +150,18 @@ export default function Navigation({ pageUrl }) {
                         href={`${item.link}`}
                         className={`nav-link dropdown-link ${pageUrl?.pathname === item.link ? "active" : ""}`}
                         onClick={handleDropdownClick}
+                        data-rosey={generateRoseyId(item.text)}
                       >
-                        {locale === "en" ? item.text : item.translations[locale]}
+                        {!localeData ? item.text : localeData[`common:${generateRoseyId(item.text)}`].value}
                       </a>
                       <ul className="dropdown-menu">
                         {item.dropdown.map((dropdown_item, j) => (
                           <li key={j}>
                             <a
                               className="dropdown-item"
-                              href={dropdown_item.dropdown_link}>
-                              {locale === "en" ? dropdown_item.dropdown_text : dropdown_item.translations[locale]}
+                              href={dropdown_item.dropdown_link}
+                              data-rosey={generateRoseyId(dropdown_item.dropdown_text)}>
+                              {!localeData ? dropdown_item.dropdown_text : localeData[`common:${generateRoseyId(dropdown_item.dropdown_text)}`].value}
                             </a>
                           </li>
                         ))}
@@ -164,8 +171,9 @@ export default function Navigation({ pageUrl }) {
                     <a
                       href={`${item.link}`}
                       className={`nav-link ${pageUrl?.pathname === item.link ? "active" : ""}`}
+                      data-rosey={generateRoseyId(item.text)}
                     >
-                      {locale === "en" ? item.text : item.translations[locale]}
+                      {!localeData ? item.text : localeData[`common:${generateRoseyId(item.text)}`].value}
                     </a>
                   )}
                 </li>
@@ -179,8 +187,9 @@ export default function Navigation({ pageUrl }) {
                 <a
                   href={`${navigation.nav_btn?.link}`}
                   className="btn btn-sm btn-links"
+                  data-rosey={generateRoseyId(navigation.nav_btn?.text)}
                 >
-                  {locale === "en" ? navigation.nav_btn?.text : navigation.nav_btn?.translations[locale]}
+                  {!localeData ? navigation.nav_btn?.text : localeData[`common:${generateRoseyId(navigation.nav_btn?.text)}`].value}
                 </a>
               </div>
             </div>
