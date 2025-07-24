@@ -14,6 +14,7 @@ _inputs:
             - Active-users-and-growing
             - Amazing-team-members
             - Built-for-your
+            - Business
             - Established-in
             - Venture-capital-raised
             - rcc-markdown:We've-built-Sendit-from-the-ground-up-the-help-grow-your-business-faster%2E
@@ -43,6 +44,14 @@ _inputs:
     comment: "[See in
       context](https://dreamy-parsnip.cloudvent.net/about/#:~:text=Built%20for%\
       20your)"
+    context: {}
+  Business:
+    label: Business
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://dreamy-parsnip.cloudvent.net/about/#:~:text=Business)"
     context: {}
   Established-in:
     label: Established in
@@ -95,6 +104,8 @@ Amazing-team-members: |
   Miembros del equipo increíbles
 Built-for-your: |
   Construido para su
+Business: |
+  Negocio
 Established-in: |
   Establecido en
 Venture-capital-raised: |

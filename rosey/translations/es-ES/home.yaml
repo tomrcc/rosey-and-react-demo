@@ -14,6 +14,7 @@ _inputs:
             - Active-users-and-growing
             - Amazing-team-members
             - Beautiful-email-campaigns
+            - Business
             - Established-in
             - Scale-your
             - Try-This-Free
@@ -46,6 +47,15 @@ _inputs:
     comment: "[See in
       context](https://dreamy-parsnip.cloudvent.net/index.html#:~:text=Beautifu\
       l%20email%20campaigns)"
+    context: {}
+  Business:
+    label: Business
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://dreamy-parsnip.cloudvent.net/index.html#:~:text=Business\
+      )"
     context: {}
   Established-in:
     label: Established in
@@ -144,6 +154,8 @@ Amazing-team-members: |
   Miembros del equipo increíbles
 Beautiful-email-campaigns: |
   Hermosas campañas de correo electrónico
+Business: |
+  Negocio
 Established-in: |
   Establecido en
 Scale-your: |

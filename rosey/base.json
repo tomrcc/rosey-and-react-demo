@@ -35,6 +35,15 @@
       },
       "total": 1
     },
+    "Business": {
+      "original": "Business",
+      "value": null,
+      "pages": {
+        "about/index.html": 1,
+        "index.html": 1
+      },
+      "total": 2
+    },
     "Established-in": {
       "original": "Established in",
       "value": null,
@@ -93,6 +102,28 @@
     },
     "common:All-Articles": {
       "original": "All Articles",
+      "value": null,
+      "pages": {
+        "404.html": 1,
+        "about/index.html": 1,
+        "blog/email-delivery-tips/index.html": 1,
+        "blog/how-to-host-better-email-marketing-campaigns/index.html": 1,
+        "blog/index.html": 1,
+        "contact/index.html": 1,
+        "features/index.html": 1,
+        "index.html": 1,
+        "login/index.html": 1,
+        "pricing/index.html": 1,
+        "privacy/index.html": 1,
+        "signup/index.html": 1,
+        "tags/blog/index.html": 1,
+        "tags/email/index.html": 1,
+        "tags/marketing/index.html": 1
+      },
+      "total": 15
+    },
+    "common:Blog": {
+      "original": "Blog",
       "value": null,
       "pages": {
         "404.html": 1,
@@ -247,28 +278,6 @@
     },
     "common:Technology": {
       "original": "Technology",
-      "value": null,
-      "pages": {
-        "404.html": 1,
-        "about/index.html": 1,
-        "blog/email-delivery-tips/index.html": 1,
-        "blog/how-to-host-better-email-marketing-campaigns/index.html": 1,
-        "blog/index.html": 1,
-        "contact/index.html": 1,
-        "features/index.html": 1,
-        "index.html": 1,
-        "login/index.html": 1,
-        "pricing/index.html": 1,
-        "privacy/index.html": 1,
-        "signup/index.html": 1,
-        "tags/blog/index.html": 1,
-        "tags/email/index.html": 1,
-        "tags/marketing/index.html": 1
-      },
-      "total": 15
-    },
-    "common:Test": {
-      "original": "Test",
       "value": null,
       "pages": {
         "404.html": 1,

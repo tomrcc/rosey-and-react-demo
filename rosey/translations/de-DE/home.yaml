@@ -7,19 +7,20 @@ _inputs:
       groups:
         - heading: Still to translate (de-DE)
           comment: "[index.html](https://dreamy-parsnip.cloudvent.net/index.html)"
+          inputs: []
+        - heading: Already translated (de-DE)
+          comment: "[index.html](https://dreamy-parsnip.cloudvent.net/index.html)"
           inputs:
             - Active-users-and-growing
             - Amazing-team-members
             - Beautiful-email-campaigns
+            - Business
             - Established-in
             - Scale-your
             - Try-This-Free
             - Venture-capital-raised
             - rcc-markdown:We-have-an-extensive-library-of-pre-written-sales-emails-proven-marketing-templates-and-more-to-get-you-started-on-your-next-project%2E
             - rcc-markdown:With-Sendit-you-can-quickly-create-beautiful-rich-emails-that-capture-a-reader's-attention-engage-them-and-convert-them-into-customers%2E
-        - heading: Already translated (de-DE)
-          comment: "[index.html](https://dreamy-parsnip.cloudvent.net/index.html)"
-          inputs: []
   Active-users-and-growing:
     label: Active users and growing
     hidden: false
@@ -46,6 +47,15 @@ _inputs:
     comment: "[See in
       context](https://dreamy-parsnip.cloudvent.net/index.html#:~:text=Beautifu\
       l%20email%20campaigns)"
+    context: {}
+  Business:
+    label: Business
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://dreamy-parsnip.cloudvent.net/index.html#:~:text=Business\
+      )"
     context: {}
   Established-in:
     label: Established in
@@ -144,6 +154,8 @@ Amazing-team-members: |
   Erstaunliche Teammitglieder
 Beautiful-email-campaigns: |
   Schöne E-Mail-Kampagnen
+Business: |
+  Geschäft
 Established-in: |
   Gegründet in
 Scale-your: |
