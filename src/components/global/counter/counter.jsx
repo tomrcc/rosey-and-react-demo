@@ -16,7 +16,7 @@ export default function GlobalCounter(block) {
             <div className="section-header">
               <h2>
                 <span data-rosey={generateRoseyId(block.title)}>{block.title}</span>
-                <span>{block.title_suffix}</span>
+                <span data-rosey={generateRoseyId(block.title_suffix)}>{block.title_suffix}</span>
               </h2>
               <div
                 dangerouslySetInnerHTML={{
