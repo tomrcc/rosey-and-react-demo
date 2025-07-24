@@ -15,6 +15,11 @@
       "code": "en",
       "name": "English (US)",
       "flag": "/images/flags/usa-flag.jpeg"
+    },
+    {
+      "code": "fr-FR",
+      "name": "French",
+      "flag": "/images/flags/france-flag.png"
     }
   ],
   "items": [
