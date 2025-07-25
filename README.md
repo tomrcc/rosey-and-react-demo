@@ -1,4 +1,4 @@
-# Sendit Multilingual Demo
+# Rosey & React Demo
 
 This demo shows a workaround for using Rosey translations in a JavaScript hydrated component - in this case the `src/components/layouts/navigation.jsx` file.
 
