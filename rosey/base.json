@@ -19,14 +19,6 @@
       },
       "total": 2
     },
-    "Beautiful-email-campaigns-changed-for-the-demo": {
-      "original": "Beautiful email campaigns changed for the demo",
-      "value": null,
-      "pages": {
-        "index.html": 1
-      },
-      "total": 1
-    },
     "Built-for-your": {
       "original": "Built for your",
       "value": null,
@@ -71,6 +63,14 @@
     },
     "Scale-your": {
       "original": "Scale your",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    },
+    "This-is-a-multilingual-site": {
+      "original": "This is a multilingual site",
       "value": null,
       "pages": {
         "index.html": 1
