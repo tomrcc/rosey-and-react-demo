@@ -8,7 +8,7 @@ _inputs:
         - heading: Still to translate (de-DE)
           comment: "[index.html](https://dreamy-parsnip.cloudvent.net/index.html)"
           inputs:
-            - Beautiful-email-campaigns-changed-for-the-demo
+            - This-is-a-multilingual-site
         - heading: Already translated (de-DE)
           comment: "[index.html](https://dreamy-parsnip.cloudvent.net/index.html)"
           inputs:
@@ -39,20 +39,6 @@ _inputs:
       context](https://dreamy-parsnip.cloudvent.net/index.html#:~:text=Amazing%\
       20team%20members)"
     context: {}
-  Beautiful-email-campaigns-changed-for-the-demo:
-    label: Beautiful email campaigns changed for the ...
-    hidden: false
-    type: textarea
-    options: {}
-    comment: "[See in
-      context](https://dreamy-parsnip.cloudvent.net/index.html#:~:text=Beautifu\
-      l%20email%20campaigns%20changed%20for%20the%20demo)"
-    context:
-      open: false
-      title: Untranslated Text
-      icon: translate
-      content: |
-        Beautiful email campaigns changed for the demo
   Business:
     label: Business
     hidden: false
@@ -79,6 +65,15 @@ _inputs:
     comment: "[See in
       context](https://dreamy-parsnip.cloudvent.net/index.html#:~:text=Scale%20\
       your)"
+    context: {}
+  This-is-a-multilingual-site:
+    label: This is a multilingual site
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See in
+      context](https://dreamy-parsnip.cloudvent.net/index.html#:~:text=This%20i\
+      s%20a%20multilingual%20site)"
     context: {}
   Try-This-Free:
     label: Try This Free
@@ -157,14 +152,14 @@ Active-users-and-growing: |
   Aktive Nutzer und wachsende Zahl
 Amazing-team-members: |
   Erstaunliche Teammitglieder
-Beautiful-email-campaigns-changed-for-the-demo: |
-  Schöne E-Mail-Kampagnen für die Demo geändert
 Business: |
   Geschäft
 Established-in: |
   Gegründet in
 Scale-your: |
   Skalieren Sie Ihre
+This-is-a-multilingual-site: |
+  Dies ist eine mehrsprachige Website
 Try-This-Free: |
   Probieren Sie es kostenlos aus
 Venture-capital-raised: |
