@@ -19,7 +19,7 @@ useEffect(() => {
    ...
    }, []);
 ```
-3. Once we find the locale, we can grab the data from the appropriate file using the line, and set the data as state - like in the following example:
+3. Once we find the locale, we can grab the data from the appropriate file, and set the data as state - like in the following example:
 ```javascript
 const [localeData, setLocaleData] = useState(false);
 const allLocales = import.meta.glob('/rosey/locales/*.json', { eager: true });
