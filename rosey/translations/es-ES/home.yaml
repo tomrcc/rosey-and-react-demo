@@ -7,13 +7,13 @@ _inputs:
       groups:
         - heading: Still to translate (es-ES)
           comment: "[index.html](https://dreamy-parsnip.cloudvent.net/index.html)"
-          inputs: []
+          inputs:
+            - Beautiful-email-campaigns-changed-for-the-demo
         - heading: Already translated (es-ES)
           comment: "[index.html](https://dreamy-parsnip.cloudvent.net/index.html)"
           inputs:
             - Active-users-and-growing
             - Amazing-team-members
-            - Beautiful-email-campaigns
             - Business
             - Established-in
             - Scale-your
@@ -39,15 +39,20 @@ _inputs:
       context](https://dreamy-parsnip.cloudvent.net/index.html#:~:text=Amazing%\
       20team%20members)"
     context: {}
-  Beautiful-email-campaigns:
-    label: Beautiful email campaigns
+  Beautiful-email-campaigns-changed-for-the-demo:
+    label: Beautiful email campaigns changed for the ...
     hidden: false
     type: textarea
     options: {}
     comment: "[See in
       context](https://dreamy-parsnip.cloudvent.net/index.html#:~:text=Beautifu\
-      l%20email%20campaigns)"
-    context: {}
+      l%20email%20campaigns%20changed%20for%20the%20demo)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: |
+        Beautiful email campaigns changed for the demo
   Business:
     label: Business
     hidden: false
@@ -152,8 +157,8 @@ Active-users-and-growing: |
   Usuarios activos y en crecimiento
 Amazing-team-members: |
   Miembros del equipo increíbles
-Beautiful-email-campaigns: |
-  Hermosas campañas de correo electrónico
+Beautiful-email-campaigns-changed-for-the-demo: |
+  Hermosas campañas de correo electrónico cambiadas para la demostración
 Business: |
   Negocio
 Established-in: |
