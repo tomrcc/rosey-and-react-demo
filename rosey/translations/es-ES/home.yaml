@@ -8,7 +8,7 @@ _inputs:
         - heading: Still to translate (es-ES)
           comment: "[index.html](https://dreamy-parsnip.cloudvent.net/index.html)"
           inputs:
-            - This-is-a-multilingual-site
+            - This-is-a-multilingual-site-that-we-are-demoing
         - heading: Already translated (es-ES)
           comment: "[index.html](https://dreamy-parsnip.cloudvent.net/index.html)"
           inputs:
@@ -66,15 +66,20 @@ _inputs:
       context](https://dreamy-parsnip.cloudvent.net/index.html#:~:text=Scale%20\
       your)"
     context: {}
-  This-is-a-multilingual-site:
-    label: This is a multilingual site
+  This-is-a-multilingual-site-that-we-are-demoing:
+    label: This is a multilingual site that we are de...
     hidden: false
     type: textarea
     options: {}
     comment: "[See in
       context](https://dreamy-parsnip.cloudvent.net/index.html#:~:text=This%20i\
-      s%20a%20multilingual%20site)"
-    context: {}
+      s%20a%20multilingual,that%20we%20are%20demoing)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: |
+        This is a multilingual site that we are demoing
   Try-This-Free:
     label: Try This Free
     hidden: false
@@ -158,8 +163,8 @@ Established-in: |
   Establecido en
 Scale-your: |
   Escala tu
-This-is-a-multilingual-site: |
-  Este es un sitio multilingüe
+This-is-a-multilingual-site-that-we-are-demoing: |
+  Este es un sitio multilingüe que estamos demostrando
 Try-This-Free: |
   Prueba esto gratis
 Venture-capital-raised: |

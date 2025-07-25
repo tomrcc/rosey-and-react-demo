@@ -11,7 +11,7 @@ seo:
   no_index: false
 content_blocks:
   - _bookshop_name: home/hero
-    title: This is a multilingual site
+    title: This is a multilingual site that we are demoing
     description: >-
       With Sendit, you can quickly create beautiful rich emails that capture a
       reader's attention, engage them, and convert them into customers.
