@@ -42,7 +42,7 @@ useEffect(() => {
    href={`${item.link}`}
    data-rosey={generateRoseyId(item.text)}
    >
-   {!localeData ? item.text : localeData[`common:${generateRoseyId(item.text)}`]?.value}
+   {localeData?.[`common:${generateRoseyId(item.text)}`]?.value ?? item.text}
 </a>
 ```
 
@@ -79,7 +79,7 @@ export default function Navigation({ pageUrl, pagePathname }) {
                     {item.enable_dropdown && item.dropdown ? (
                       <>
                         <a href={`${item.link}`} data-rosey={generateRoseyId(item.text)}>
-                          {!localeData ? item.text : localeData[`common:${generateRoseyId(item.text)}`]?.value}
+                          {localeData?.[`common:${generateRoseyId(item.text)}`]?.value ?? item.text}
                         </a>
                         <ul className="dropdown-menu">
                           {item.dropdown.map((dropdown_item, j) => (
@@ -87,7 +87,7 @@ export default function Navigation({ pageUrl, pagePathname }) {
                               <a
                                 href={dropdown_item.dropdown_link}
                                 data-rosey={generateRoseyId(dropdown_item.dropdown_text)}>
-                                {!localeData ? dropdown_item.dropdown_text : localeData[`common:${generateRoseyId(dropdown_item.dropdown_text)}`]?.value}
+                                {localeData?.[`common:${generateRoseyId(dropdown_item.dropdown_text)}`]?.value ?? dropdown_item.dropdown_text}
                               </a>
                             </li>
                           ))}
@@ -95,7 +95,7 @@ export default function Navigation({ pageUrl, pagePathname }) {
                       </>
                     ) : (
                      <a href={`${item.link}`} data-rosey={generateRoseyId(item.text)}>
-                     {!localeData ? item.text : localeData[`common:${generateRoseyId(item.text)}`]?.value}
+                     {localeData?.[`common:${generateRoseyId(item.text)}`]?.value ?? item.text}
                      </a>
                     )}
                   </li>
@@ -130,7 +130,7 @@ export default function Navigation({ pageUrl, pagePathname }) {
                <div>
                   <div>
                      <a href={`${navigation.nav_btn?.link}`} data-rosey={generateRoseyId(navigation.nav_btn?.text)}>
-                     {!localeData ? navigation.nav_btn?.text : localeData[`common:${generateRoseyId(navigation.nav_btn?.text)}`]?.value}
+                     {localeData?.[`common:${generateRoseyId(navigation.nav_btn?.text)}`]?.value ?? navigation.nav_btn?.text}
                      </a>
                   </div>
                </div>
@@ -142,3 +142,6 @@ export default function Navigation({ pageUrl, pagePathname }) {
   );
 }
 ```
+
+> [!NOTE]
+> One of the current limitations with this workaround is that the build runs before the locales/\*.json files are generated. So if there's a translation that's been entered or generated on the current build, it won't show up in the hydrated nav values until the next build. If you run an extra build it will have access to last round's locales/\*.json file values and correctly make it onto the page.
