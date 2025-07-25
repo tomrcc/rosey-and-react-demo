@@ -7,8 +7,7 @@ _inputs:
       groups:
         - heading: Still to translate (de-DE)
           comment: "[index.html](https://dreamy-parsnip.cloudvent.net/index.html)"
-          inputs:
-            - This-is-a-multilingual-site-that-we-are-demoing
+          inputs: []
         - heading: Already translated (de-DE)
           comment: "[index.html](https://dreamy-parsnip.cloudvent.net/index.html)"
           inputs:
@@ -17,6 +16,7 @@ _inputs:
             - Business
             - Established-in
             - Scale-your
+            - This-is-a-multilingual-site-that-we-are-demoing
             - Try-This-Free
             - Venture-capital-raised
             - rcc-markdown:We-have-an-extensive-library-of-pre-written-sales-emails-proven-marketing-templates-and-more-to-get-you-started-on-your-next-project%2E
