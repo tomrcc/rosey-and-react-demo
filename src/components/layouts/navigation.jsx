@@ -151,7 +151,7 @@ export default function Navigation({ pageUrl, pagePathname }) {
                           onClick={handleDropdownClick}
                           data-rosey={generateRoseyId(item.text)}
                         >
-                          {!localeData ? item.text : localeData[`common:${generateRoseyId(item.text)}`]?.value}
+                          {localeData?.[`common:${generateRoseyId(item.text)}`]?.value ?? item.text}
                         </a>
                         <ul className="dropdown-menu">
                           {item.dropdown.map((dropdown_item, j) => (
@@ -160,7 +160,7 @@ export default function Navigation({ pageUrl, pagePathname }) {
                                 className="dropdown-item"
                                 href={dropdown_item.dropdown_link}
                                 data-rosey={generateRoseyId(dropdown_item.dropdown_text)}>
-                                {!localeData ? dropdown_item.dropdown_text : localeData[`common:${generateRoseyId(dropdown_item.dropdown_text)}`]?.value}
+                                {localeData?.[`common:${generateRoseyId(dropdown_item.dropdown_text)}`]?.value ?? dropdown_item.dropdown_text}
                               </a>
                             </li>
                           ))}
@@ -172,7 +172,7 @@ export default function Navigation({ pageUrl, pagePathname }) {
                         className={`nav-link ${pageUrl?.pathname === item.link ? "active" : ""}`}
                         data-rosey={generateRoseyId(item.text)}
                       >
-                        {!localeData ? item.text : localeData[`common:${generateRoseyId(item.text)}`]?.value}
+                        {localeData?.[`common:${generateRoseyId(item.text)}`]?.value ?? item.text}
                       </a>
                     )}
                   </li>
@@ -215,7 +215,7 @@ export default function Navigation({ pageUrl, pagePathname }) {
                     className="btn btn-sm btn-links"
                     data-rosey={generateRoseyId(navigation.nav_btn?.text)}
                   >
-                    {!localeData ? navigation.nav_btn?.text : localeData[`common:${generateRoseyId(navigation.nav_btn?.text)}`]?.value}
+                    {localeData?.[`common:${generateRoseyId(navigation.nav_btn?.text)}`]?.value ?? navigation.nav_btn?.text}
                   </a>
                 </div>
               </div>
